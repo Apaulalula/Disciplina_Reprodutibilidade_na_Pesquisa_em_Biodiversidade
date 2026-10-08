@@ -23,4 +23,5 @@ O material base da disciplina e o template usado para configuração do reposit�
 desenvolvido por:
 
 [Melina Leite](https://melinaleite.weebly.com/)
+
 [Gabriel Nakamura](https://gabrielnakamura.netlify.app/)
