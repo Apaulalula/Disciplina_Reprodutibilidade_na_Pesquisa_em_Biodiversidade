@@ -1,0 +1,99 @@
+project:
+  type: website
+  output-dir: docs
+  
+lang: pt-BR
+
+language:
+  references-title: "Referências"
+
+website:
+  title: "Reprodutibilidade computacional e principios da ciência aberta"
+        
+  page-footer:
+    right: "This page is built with ❤️ and [Quarto](https://quarto.org/)."
+    background: "#D9E3E4"
+        
+  sidebar:
+    background: "#D9E3E4"
+    logo: "images/ECMVS_logo.png"
+    align: center
+    style: "docked"
+    search: true
+    tools: 
+      - icon: github
+        href: https://github.com/Lab-MMM/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta
+        text: "Repositório do curso"
+      - icon: globe
+        href: https://gabrielnakamura.netlify.app/
+        text: "Website pessoal"
+    
+    contents:
+      - section: "Informações sobre o curso"
+        contents:
+          - text: "Apresentação"
+            href: about.qmd
+          - text: "Cronograma do curso"
+            href: index.qmd
+          - text: "Links para materiais úteis"
+            href: links.qmd
+      - section: "Aulas"
+        contents: 
+        - section: "Introdução a ciência aberta"
+          contents:
+          - text: "Introdução a Ciência Aberta"
+            href: aulas/01_ciencia_aberta/index.qmd
+          - text: "Dados abertos"
+            href: aulas/02_dados_abertos/index.qmd
+        - section: "Organização de diretórios"
+          contents:
+          - text: "Organização do diretório de trabalho local"
+            href: aulas/03_organizacao_local_caminhos/index.qmd
+          - text: "Organização de scripts"
+            href: aulas/04_organizacao_scripts/index.qmd
+        - section: "Versionamento"
+          contents: 
+          - text: "Ferramentas para controle de versão"
+            href: aulas/05_intro_reprodutibilidade/index.qmd
+          - text: "Introdução ao controle de versão"
+            href: aulas/06_git_github_basics/index.qmd
+          - text: "Viajando no tempo"
+            href: aulas/07_navegando_versoes/index.qmd
+          - text: "Trabalho colaborativo - branches, forks, pull requests, issues"
+          - text: "Ignorando e manejando arquivos"
+            href: aulas/08_ignorando_manejando_arquivos/index.qmd
+          - text: "Trabalho colaborativo"
+            href: aulas/09_colaboracao_github/index.qmd
+          - text: "Conflitos e como evitá-los (ou resolvê-los)"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
+          - text: "Versionando pacotes e dependências"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
+          - text: "Releases e depósito permanente"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
+          - text: "Glossário do versionamento"
+            href: aulas/glossario/index.qmd
+        - section: "Documentos dinâmicos"
+          contents: 
+          - text: "O que são e como funcionam"
+            href: aulas/dynamic_quarto_Rmarkdown/index.qmd
+          - text: "Além do artigo - materiais suplementares, vinhetas, sítios públicos"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
+        - section: "Manejo de ambientes"
+          contents:
+          - text: "Utilizando o pacote renv"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
+          - text: "Outras alternativas"
+            href: aulas/aula3_descricao-padroes_II/index.qmd
+format:
+  html:
+    theme:
+      light: [cosmo, theme.scss]
+      dark: [cosmo, theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    code-copy: true
+    code-overflow: wrap
+    toc: true
+
+freeze: auto
+
+editor: visual

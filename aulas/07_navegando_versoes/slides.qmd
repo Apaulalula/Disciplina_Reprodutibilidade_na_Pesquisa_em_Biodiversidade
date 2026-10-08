@@ -1,0 +1,40 @@
+---
+title: "Viajando no tempo"
+subtitle: "como usar os commits para explorar versões"
+author: "Gabriel Nakamura | Laboratório de Macroecologia, Macroevolução e Métodos quantitativos"
+
+format: 
+  qmdrslides-revealjs:
+    chalkboard: true
+    slide-number: true
+    highlight-style: espresso
+---
+
+## Viajando no tempo
+
+![](figuras/back-to-the-future.jpeg){fig-align="center" width="70%"}
+
+## Viajando no tempo
+
+![](figuras/serra_pelada_SS.jpg){fig-align="center" width="40%"}
+
+## Viajando no tempo: commits
+
+> Commits são como fotografias com anotações em seu verso. Eles nos
+    ajudam a lembrar o estado do seu trabalho naquele exato momento 
+    registrado
+
+## Commits: navegando com segurança
+
+![](figuras/commit-safe.png){fig-align="center" width="80%"}
+
+## Commits: protegendo contra si
+
+![](figuras/commit-safe-2.png){fig-align="center" width="80%"}
+
+## Commits: ilustrando o trajeto para outros
+
+![](figuras/commit-safe-3.jpg){fig-align="center" width="80%"}
+
+## Commits na prática: visualizando os commits
+
