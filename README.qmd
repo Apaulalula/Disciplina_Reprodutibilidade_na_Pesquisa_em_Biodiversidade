@@ -19,6 +19,14 @@ outras ferramentas que podem auxiliar profissionais da área de no
 desenvolvimento de projetos de pesquisa que cumprem princípios de
 ciência aberta.
 
+# Autores
+
+Ana Paula Lula Costa
+
+[Gabriel Nakamura](https://gabrielnakamura.netlify.app/)
+
+Matheus Salles
+
 # Referências
 
 Grande parte desse material foi concebido como referência complementar a
