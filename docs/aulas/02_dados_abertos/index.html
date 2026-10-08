@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,6 +10,9 @@
 
 <title>Dados abertos – Reprodutibilidade computacional e principios da ciência aberta</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -72,14 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-72412ffdb1e108b6e678acee5cb1fffa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ff4589304b9f6383147e11e2e93ab800.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -108,6 +111,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <link href="../../site_libs/vembedr-0.1.5/css/vembedr.css" rel="stylesheet">
+
 
 
 </head>
@@ -298,7 +302,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/ECMVS_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../../images/ECMVS_logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../images/ECMVS_logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/Lab-MMM/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta" title="Repositório do curso" class="quarto-navigation-tool px-1" aria-label="Repositório do curso"><i class="bi bi-github"></i></a>
@@ -722,9 +727,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="instalação">Instalação</h2>
 <p>Para instalar o pacote EML faça o seguinte:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"EML"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">install.packages</span>(<span class="st">"EML"</span>)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(EML)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(EML)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Vamos utilizar um conjunto de dados contidos no próprio pacote EML para facilitar a compreensão dos passos necessários para construir um EML completo</p>
 </section>
@@ -734,7 +739,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="construindo-os-atributos">Construindo os Atributos</h3>
 <p>Os atributos são as descrições para as variáveis contidas na nossa tabela. Aquela aba contendo as informações das variáveis, pois então, esta seria os atributos da sua tabela de dados. Então, primeiro precisamos de uma tabela de atributos que define o significado geral de cada variável em nossa tabela de dados. Esta tabela pode ser gerada aqui no R direto, como no exemplo abaixo, mas pode ser importada a partir de uma tabela <code>.csv</code>. A tabela segue o formato a seguir:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>attributes <span class="ot">&lt;-</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>attributes <span class="ot">&lt;-</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>tibble<span class="sc">::</span><span class="fu">tribble</span>(</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="sc">~</span>attributeName, <span class="sc">~</span>attributeDefinition,                                                 <span class="sc">~</span>formatString, <span class="sc">~</span>definition,        <span class="sc">~</span>unit,   <span class="sc">~</span>numberType,</span>
 <span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="st">"run.num"</span>,    <span class="st">"which run number (=block). Range: 1 - 6. (integer)"</span>,                 <span class="cn">NA</span>,            <span class="st">"which run number"</span>, <span class="cn">NA</span>,       <span class="cn">NA</span>,</span>
@@ -744,12 +749,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>  <span class="st">"i.flag"</span>,     <span class="st">"is variable Real, Interpolated or Bad (character/factor)"</span>,           <span class="cn">NA</span>,            <span class="cn">NA</span>,                 <span class="cn">NA</span>,       <span class="cn">NA</span>,</span>
 <span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>  <span class="st">"variable"</span>,   <span class="st">"what variable being measured in what treatment (character/factor)."</span>, <span class="cn">NA</span>,            <span class="cn">NA</span>,                 <span class="cn">NA</span>,       <span class="cn">NA</span>,</span>
 <span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  <span class="st">"value.i"</span>,    <span class="st">"value of measured variable for run.num on year/day/hour.min."</span>,       <span class="cn">NA</span>,            <span class="cn">NA</span>,                 <span class="cn">NA</span>,       <span class="cn">NA</span>,</span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="st">"length"</span>,    <span class="st">"length of the species in meters (dummy example of numeric data)"</span>,     <span class="cn">NA</span>,            <span class="cn">NA</span>,                 <span class="st">"meter"</span>,  <span class="st">"real"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="st">"length"</span>,    <span class="st">"length of the species in meters (dummy example of numeric data)"</span>,     <span class="cn">NA</span>,            <span class="cn">NA</span>,                 <span class="st">"meter"</span>,  <span class="st">"real"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Dê uma olhada na tabela de atributos (pode ser feito usano a função <code>View</code> ou abrindo no Excel). A maioria dos dados seguem este formato geral.</p>
 <p>A seguir precisamos descrever os atributos que apresentam níveis. Por exemplo o atributo chamado <code>variable</code> apresenta oito níveis. A estratégia seguida aqui foi criar vetores com os códigos usados para cada nível dos atributos e uma pequena explicação.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>i.flag <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">R =</span> <span class="st">"real"</span>,</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>i.flag <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="at">R =</span> <span class="st">"real"</span>,</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>            <span class="at">I =</span> <span class="st">"interpolated"</span>,</span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>            <span class="at">B =</span> <span class="st">"bad"</span>)</span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>variable <span class="ot">&lt;-</span> <span class="fu">c</span>(</span>
@@ -791,35 +796,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a>  <span class="at">code =</span> <span class="fu">names</span>(value.i),</span>
 <span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a>  <span class="at">definition =</span> <span class="fu">unname</span>(value.i)</span>
 <span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Após especificadas as características das variáveis categóricas (as contínuas já estão especificadas na tabela geral de atributos <code>attributes</code>), usamos a função <code>set_attributes</code> para criar a lista de atributos geral dos dados, onde devemos especificar o tipo de atributo que estamos inserindo (se caracter, se data, se fator etc..)</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>attributeList <span class="ot">&lt;-</span> <span class="fu">set_attributes</span>(attributes, factors, <span class="at">col_classes =</span> <span class="fu">c</span>(<span class="st">"character"</span>, <span class="st">"Date"</span>, <span class="st">"Date"</span>, <span class="st">"Date"</span>, <span class="st">"factor"</span>, <span class="st">"factor"</span>, <span class="st">"factor"</span>, <span class="st">"numeric"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>attributeList <span class="ot">&lt;-</span> <span class="fu">set_attributes</span>(attributes, factors, <span class="at">col_classes =</span> <span class="fu">c</span>(<span class="st">"character"</span>, <span class="st">"Date"</span>, <span class="st">"Date"</span>, <span class="st">"Date"</span>, <span class="st">"factor"</span>, <span class="st">"factor"</span>, <span class="st">"factor"</span>, <span class="st">"numeric"</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="construindo-as-características-físicas-do-dado" class="level3">
 <h3 class="anchored" data-anchor-id="construindo-as-características-físicas-do-dado">Construindo as características físicas do dado</h3>
 <p>Aqui vamos especificar as características físicas do próprio arquivo de dados que utilizamos, ou seja, o formato, o tipo de compressão do arquivo, o separador etc. Resumindo, aqui é especificado a <strong>característica do arquivo</strong>. Isso é feito facilmente com a função <code>set_physical</code>. Se estivermos utilizando um arquivo .csv a função já extrai automaticamente a maior parte das características relevantes do arquivo de dados.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>physical <span class="ot">&lt;-</span> <span class="fu">set_physical</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"hf205-01-TPexp1-EML-Exemple.csv"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>physical <span class="ot">&lt;-</span> <span class="fu">set_physical</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"hf205-01-TPexp1-EML-Exemple.csv"</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="juntando-atributos-e-características-físicas" class="level3">
 <h3 class="anchored" data-anchor-id="juntando-atributos-e-características-físicas">Juntando Atributos e Características físicas</h3>
 <p>Com o objeto de atributos e o objeto de características físicas temos o essencial para descrever o nosso conjunto de dados. Agora vamos juntar ambos com mais algumas informações em uma única lista e denominar isso como sendo o nosso <code>dataTable</code></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>dataTable <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>dataTable <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>                 <span class="at">entityName =</span> <span class="st">"hf205-01-TPexp1.csv"</span>,</span>
 <span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>                 <span class="at">entityDescription =</span> <span class="st">"tipping point experiment 1"</span>,</span>
 <span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>                 <span class="at">physical =</span> physical,</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                 <span class="at">attributeList =</span> attributeList)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>                 <span class="at">attributeList =</span> attributeList)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="características-adicionais---extensão-geográfica-métodos-e-outros" class="level3">
 <h3 class="anchored" data-anchor-id="características-adicionais---extensão-geográfica-métodos-e-outros">Características adicionais - extensão geográfica, métodos e outros</h3>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>geographicDescription <span class="ot">&lt;-</span> <span class="st">"Harvard Forest Greenhouse, Tom Swamp Tract (Harvard Forest)"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>geographicDescription <span class="ot">&lt;-</span> <span class="st">"Harvard Forest Greenhouse, Tom Swamp Tract (Harvard Forest)"</span></span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>coverage <span class="ot">&lt;-</span> </span>
@@ -829,16 +834,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>               <span class="at">west =</span> <span class="sc">-</span><span class="fl">122.44</span>, <span class="at">east =</span> <span class="sc">-</span><span class="fl">117.15</span>, </span>
 <span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>               <span class="at">north =</span> <span class="fl">37.38</span>, <span class="at">south =</span> <span class="fl">30.00</span>,</span>
 <span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>               <span class="at">altitudeMin =</span> <span class="dv">160</span>, <span class="at">altitudeMaximum =</span> <span class="dv">330</span>,</span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">altitudeUnits =</span> <span class="st">"meter"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">altitudeUnits =</span> <span class="st">"meter"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Para descrever os métodos em metadados</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>methods_file <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"hf205-methods.docx"</span>)</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>methods <span class="ot">&lt;-</span> <span class="fu">set_methods</span>(methods_file)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>methods_file <span class="ot">&lt;-</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"hf205-methods.docx"</span>)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>methods <span class="ot">&lt;-</span> <span class="fu">set_methods</span>(methods_file)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Identificação dos indivíduos endereço e outras informações sobre contatos</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>R_person <span class="ot">&lt;-</span> <span class="fu">person</span>(<span class="st">"Aaron"</span>, <span class="st">"Ellison"</span>, ,<span class="st">"fakeaddress@email.com"</span>, <span class="st">"cre"</span>, </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>R_person <span class="ot">&lt;-</span> <span class="fu">person</span>(<span class="st">"Aaron"</span>, <span class="st">"Ellison"</span>, ,<span class="st">"fakeaddress@email.com"</span>, <span class="st">"cre"</span>, </span>
 <span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>                  <span class="fu">c</span>(<span class="at">ORCID =</span> <span class="st">"0000-0003-4151-6081"</span>))</span>
 <span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>aaron <span class="ot">&lt;-</span> <span class="fu">as_emld</span>(R_person)</span>
 <span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>others <span class="ot">&lt;-</span> <span class="fu">c</span>(<span class="fu">as.person</span>(<span class="st">"Benjamin Baiser"</span>), <span class="fu">as.person</span>(<span class="st">"Jennifer Sirota"</span>))</span>
@@ -864,11 +869,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb9-24"><a href="#cb9-24" aria-hidden="true" tabindex="-1"></a>    <span class="at">electronicMailAddress =</span> aaron<span class="sc">$</span>electronicMailAddress,</span>
 <span id="cb9-25"><a href="#cb9-25" aria-hidden="true" tabindex="-1"></a>    <span class="at">address =</span> HF_address,</span>
 <span id="cb9-26"><a href="#cb9-26" aria-hidden="true" tabindex="-1"></a>    <span class="at">organizationName =</span> <span class="st">"Harvard Forest"</span>,</span>
-<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">phone =</span> <span class="st">"000-000-0000"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-27"><a href="#cb9-27" aria-hidden="true" tabindex="-1"></a>    <span class="at">phone =</span> <span class="st">"000-000-0000"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>criando keywords para os dados</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>keywordSet <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>keywordSet <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
 <span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="fu">list</span>(</span>
 <span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>        <span class="at">keywordThesaurus =</span> <span class="st">"LTER controlled vocabulary"</span>,</span>
 <span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>        <span class="at">keyword =</span> <span class="fu">list</span>(<span class="st">"bacteria"</span>,</span>
@@ -883,11 +888,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb10-13"><a href="#cb10-13" aria-hidden="true" tabindex="-1"></a>    <span class="fu">list</span>(</span>
 <span id="cb10-14"><a href="#cb10-14" aria-hidden="true" tabindex="-1"></a>        <span class="at">keywordThesaurus =</span> <span class="st">"HFR default"</span>,</span>
 <span id="cb10-15"><a href="#cb10-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">keyword =</span> <span class="fu">list</span>(<span class="st">"Harvard Forest"</span>, <span class="st">"HFR"</span>, <span class="st">"LTER"</span>, <span class="st">"USA"</span>)</span>
-<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>        ))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-16"><a href="#cb10-16" aria-hidden="true" tabindex="-1"></a>        ))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Outras informações relevantes como abstract etc</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pubDate <span class="ot">&lt;-</span> <span class="st">"2012"</span> </span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>pubDate <span class="ot">&lt;-</span> <span class="st">"2012"</span> </span>
 <span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>title <span class="ot">&lt;-</span> <span class="st">"Thresholds and Tipping Points in a Sarracenia </span></span>
 <span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="st">Microecosystem at Harvard Forest since 2012"</span></span>
@@ -914,14 +919,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb11-25"><a href="#cb11-25" aria-hidden="true" tabindex="-1"></a><span class="st">investigators is strongly encouraged. Publications and data products</span></span>
 <span id="cb11-26"><a href="#cb11-26" aria-hidden="true" tabindex="-1"></a><span class="st">that make use of the dataset must include proper acknowledgement. For</span></span>
 <span id="cb11-27"><a href="#cb11-27" aria-hidden="true" tabindex="-1"></a><span class="st">more information on LTER Network data access and use policies, please</span></span>
-<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a><span class="st">see: http://www.lternet.edu/data/netpolicy.html."</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb11-28"><a href="#cb11-28" aria-hidden="true" tabindex="-1"></a><span class="st">see: http://www.lternet.edu/data/netpolicy.html."</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="criando-o-arquivo-xml" class="level3">
 <h3 class="anchored" data-anchor-id="criando-o-arquivo-xml">Criando o arquivo XML</h3>
 <p>Agora que todas as informações foram criadas (atributos, dados físicos do arquivo, coverage, dados de contato), precisamos juntar todas elas em uma única lista.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>dataset <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>dataset <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
 <span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>               <span class="at">title =</span> title,</span>
 <span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>               <span class="at">creator =</span> aaron,</span>
 <span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>               <span class="at">pubDate =</span> pubDate,</span>
@@ -932,19 +937,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>               <span class="at">coverage =</span> coverage,</span>
 <span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>               <span class="at">contact =</span> contact,</span>
 <span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>               <span class="at">methods =</span> methods,</span>
-<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>               <span class="at">dataTable =</span> dataTable)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>               <span class="at">dataTable =</span> dataTable)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Antes de criar o arquivo XML é importante criar um uuid para o arquivo, que nada mais é que um identificador que qualquer um pode criar, como demonstrado a seguir. Para mais informações sobre o que é um uuid ver <a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">esta explicação no Wikipedia</a></p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>eml <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>eml <span class="ot">&lt;-</span> <span class="fu">list</span>(</span>
 <span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>           <span class="at">packageId =</span> uuid<span class="sc">::</span><span class="fu">UUIDgenerate</span>(),</span>
 <span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>           <span class="at">system =</span> <span class="st">"uuid"</span>, <span class="co"># type of identifier</span></span>
-<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>           <span class="at">dataset =</span> dataset)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>           <span class="at">dataset =</span> dataset)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Finalmente criando o arquivo XML e validando.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write_eml</span>(eml, here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"eml_tutorialHF205.xml"</span>))</span>
-<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">eml_validate</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"eml_tutorialHF205.xml"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="fu">write_eml</span>(eml, here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"eml_tutorialHF205.xml"</span>))</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="fu">eml_validate</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"eml_tutorialHF205.xml"</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -967,20 +972,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="instalação-e-dados">Instalação e dados</h2>
 <p>Primeiro vamos instalar o pacote</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"https://github.com/LivingNorway/LivingNorwayR"</span>)</span>
-<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(LivingNorwayR)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>devtools<span class="sc">::</span><span class="fu">install_github</span>(<span class="st">"https://github.com/LivingNorway/LivingNorwayR"</span>)</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(LivingNorwayR)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Aqui os dados que serão utilizados no exemplo. Estes são os mesmos dados utilizados no tuturial do Living Norway R. Para mais detalhes visite a <a href="https://livingnorway.github.io/LivingNorwayR/articles/LNWorkshopExample_TOV-E.html">página deles</a>.</p>
 <p>Vamos utilizar um conjunto de dados que fizemos o download e está dentro da nossa pasta do curso para criar nosso arquivo Darwin Core.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lendo o arquivo core</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lendo o arquivo core</span></span>
 <span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>TOVEEventTableDF <span class="ot">&lt;-</span> <span class="fu">read.table</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>, <span class="st">"event.txt"</span>), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(TOVEEventTableDF)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(TOVEEventTableDF)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Obtendo os arquivos extendidos, neste caso o arquivo de ocorrência de espécies. Podemos ver que se trata de um simples data frame onde os nomes das colunas seguem os códigos do Darwin Core</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>TOVEOccTable <span class="ot">&lt;-</span> <span class="fu">read.table</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>, <span class="st">"occurrence.txt"</span>), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
-<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(TOVEOccTable)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>TOVEOccTable <span class="ot">&lt;-</span> <span class="fu">read.table</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>, <span class="st">"occurrence.txt"</span>), <span class="at">sep =</span> <span class="st">"</span><span class="sc">\t</span><span class="st">"</span>, <span class="at">header =</span> <span class="cn">TRUE</span>)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(TOVEOccTable)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="construindo-um-xml-baseado-em-darwin-core" class="level2">
@@ -990,7 +995,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h3 class="anchored" data-anchor-id="construindo-o-metadado-para-a-tabela-de-eventos-core">Construindo o metadado para a tabela de eventos <strong>core</strong></h3>
 <p>Primeiro precisamos definir o que será a tabela <strong>core</strong> e o que serão as suas <strong>extensões</strong>, que por sua vez podem ser mapeadas a partir de atributos comuns presentes em ambas as tabelas (neste caso o ID).</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Inicializando automaticamente - só funciona caso os nomes já estejam de acordo com o Darwin Core</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb18"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1. Inicializando automaticamente - só funciona caso os nomes já estejam de acordo com o Darwin Core</span></span>
 <span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>newTOVEEventTable <span class="ot">&lt;-</span> <span class="fu">initializeGBIFEvent</span>(TOVEEventTableDF, <span class="st">"id"</span>, <span class="at">nameAutoMap =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a><span class="co"># 2. Iniciando manualmente - podemos usar o nome dos atributos que correspondem a cada categoria do Darwin Core. </span></span>
@@ -1026,34 +1031,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">coordinateUncertaintyInMeters =</span> <span class="st">"coordinateUncertaintyInMeters"</span>)</span>
 <span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb18-36"><a href="#cb18-36" aria-hidden="true" tabindex="-1"></a><span class="co"># Podemos checar se o mapeamento dos termos se deu corretamente</span></span>
-<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>newTOVEEventTable<span class="sc">$</span><span class="fu">getTermMapping</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb18-37"><a href="#cb18-37" aria-hidden="true" tabindex="-1"></a>newTOVEEventTable<span class="sc">$</span><span class="fu">getTermMapping</span>()</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="construindo-os-metadados-para-as-extensões-da-tabela-core" class="level3">
 <h3 class="anchored" data-anchor-id="construindo-os-metadados-para-as-extensões-da-tabela-core">Construindo os metadados para as extensões da tabela core</h3>
 <p>Neste caso a tabela a extensão que temos da tabela chave é a tabela de ocorrência de espécies. Vamos mapear ela da mesma forma que fizemos para a tabela core</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Função para inicialização da tabela</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb19"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Função para inicialização da tabela</span></span>
 <span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>newTOVEOccTable <span class="ot">&lt;-</span> <span class="fu">initializeGBIFOccurrence</span>(TOVEOccTable, <span class="st">"id"</span>, <span class="at">nameAutoMap =</span> <span class="cn">TRUE</span>)</span>
 <span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Checando quais eventos foram mapeados na tabela, o que aparece com NA não foi mapeado, ou porque não existe ou porque tem o nome incorreto</span></span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>newTOVEOccTable<span class="sc">$</span><span class="fu">getTermMapping</span>()</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>newTOVEOccTable<span class="sc">$</span><span class="fu">getTermMapping</span>()</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="construindo-o-eml" class="level3">
 <h3 class="anchored" data-anchor-id="construindo-o-eml">Construindo o EML</h3>
 <p>O último elemento que precisamos para construir nossos metadados para os arquivos de biodiversidade que estamos utilizando é o arquivo EML, que vocês já conhecem. O EML pode ser criado de várias formas. Vimos anteriormente como criar um EML usando o pacote <code>{EML}</code>. O pacote <code>{LivingNorwayR}</code> oferece uma maneira simples de criar um arquivo XML usando um arquivo <code>.Rmd</code>, ou seja, usando o Rmarkdown. Vamos entender os detalhes de um arquivo do tipo Rmd mais adiante, por hora precisamos apenas saber que ele é um arquivo que permite mesclar textos e códigos, além de possibilitar criar tags para seções (Como os títulos num documento Word). Essas tags são utilizadas pelas funções do LivingNorwayR para criar o arquivo XML. Vale notar que isso é mais limitante que criar um XML usando o EML, mas para questões didáticas vamos usar um arquivo .Rmd pronto, que está na pasta de dados deste diretório.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>createdTOVEMetadata <span class="ot">&lt;-</span> <span class="fu">initializeDwCMetadata</span>(<span class="at">fileLocation =</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>, <span class="st">"LNWorkshopExample_Metadata.rmd"</span>), <span class="at">fileType =</span> <span class="st">"rmarkdown"</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>createdTOVEMetadata <span class="ot">&lt;-</span> <span class="fu">initializeDwCMetadata</span>(<span class="at">fileLocation =</span> here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>, <span class="st">"LNWorkshopExample_Metadata.rmd"</span>), <span class="at">fileType =</span> <span class="st">"rmarkdown"</span>)</span>
 <span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Exportando o EML</span></span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>createdTOVEMetadata<span class="sc">$</span><span class="fu">exportToEML</span>(<span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>), <span class="st">"newMetadata.xml"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>createdTOVEMetadata<span class="sc">$</span><span class="fu">exportToEML</span>(<span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>), <span class="st">"newMetadata.xml"</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Este novo metadado precisa ser lido para o R e assim podemos juntá-lo com os outros arquivos</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>newTOVEMetadata <span class="ot">&lt;-</span> <span class="fu">initializeDwCMetadata</span>(<span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>), <span class="st">"newMetadata.xml"</span>),</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>newTOVEMetadata <span class="ot">&lt;-</span> <span class="fu">initializeDwCMetadata</span>(<span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"TOVEData"</span>), <span class="st">"newMetadata.xml"</span>),</span>
 <span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>  <span class="at">fileType =</span> <span class="st">"eml"</span> <span class="co"># This line is not required if the file has the ".xml" file extension</span></span>
-<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -1071,12 +1076,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 <p>Para juntar todos os arquivos criados precisamos usar a seguinte função</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># criando um único arquivo com todos os objetos criados anteriormente</span></span>
-<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>newTOVEArchive <span class="ot">&lt;-</span> <span class="fu">initializeDwCArchive</span>(newTOVEEventTable, <span class="fu">list</span>(newTOVEOccTable), newTOVEMetadata)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="co"># criando um único arquivo com todos os objetos criados anteriormente</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>newTOVEArchive <span class="ot">&lt;-</span> <span class="fu">initializeDwCArchive</span>(newTOVEEventTable, <span class="fu">list</span>(newTOVEOccTable), newTOVEMetadata)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Para salvar o objeto .zip, que agora é nosso Darwin Core Archive, podemos fazer o seguinte</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>newTOVEArchive<span class="sc">$</span><span class="fu">exportAsDwCArchive</span>(<span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"NEWTOVEData"</span>), <span class="st">"newDwCArchive.zip"</span>))</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>newTOVEArchive<span class="sc">$</span><span class="fu">exportAsDwCArchive</span>(<span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"NEWTOVEData"</span>), <span class="st">"newDwCArchive.zip"</span>))</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="explorando-o-darwin-core-archive" class="level2">
@@ -1084,12 +1089,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Uma vez criado o arquivo no formato Darwin Core Archive podemos fazer o caminho inverso e obter as tabelas a partir do arquivo que criamos.</p>
 <p>Para tanto podemos usar as funções do pacote LivingNorwayR para ler o arquivo zip e extrair as tabelas, incluindo os metadados.</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>localDataLoc2 <span class="ot">&lt;-</span> <span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"NEWTOVEData"</span>), <span class="st">"newDwCArchive.zip"</span>) </span>
-<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>NEWTOVEArchive <span class="ot">&lt;-</span> <span class="fu">initializeDwCArchive</span>(localDataLoc2, <span class="st">"UTF-8"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>localDataLoc2 <span class="ot">&lt;-</span> <span class="fu">file.path</span>(here<span class="sc">::</span><span class="fu">here</span>(<span class="st">"data"</span>, <span class="st">"NEWTOVEData"</span>), <span class="st">"newDwCArchive.zip"</span>) </span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>NEWTOVEArchive <span class="ot">&lt;-</span> <span class="fu">initializeDwCArchive</span>(localDataLoc2, <span class="st">"UTF-8"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Podemos agora explorar os dados dentro do arquivo Darwin Core criado nos passos anteriores. Ou seja, podemos retomar os dados e importar para dentro do R para fazer, por exemplo, novas análises</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># obtendo o dado</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb25"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="co"># obtendo o dado</span></span>
 <span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>NEWTOVEEventTable <span class="ot">&lt;-</span> NEWTOVEArchive<span class="sc">$</span><span class="fu">getCoreTable</span>()</span>
 <span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="fu">class</span>(NEWTOVEEventTable)</span>
 <span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
@@ -1099,7 +1104,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a><span class="co"># obtendo dados da tabela extendida</span></span>
 <span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>NEWTOVEEventTableDF <span class="ot">&lt;-</span> NEWTOVEEventTable<span class="sc">$</span><span class="fu">exportAsDataFrame</span>()</span>
 <span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a><span class="co"># exportando como dataframe</span></span>
-<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(NEWTOVEEventTableDF)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a><span class="fu">head</span>(NEWTOVEEventTableDF)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 </section>
@@ -1109,8 +1114,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Produza um arquivo <code>.xml</code> utilizando os dados <code>iris</code> do pacote <code>{ggplot}</code>. Algumas informações nós não temos, por exemplo, a cobertura de coleta, ano de coleta etc. Mas para fins de prática vamos inventar essas informações no momento de fazer o metadado.</p>
 <p>Para acessar os dados:</p>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"iris"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb26"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="fu">data</span>(<span class="st">"iris"</span>)</span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <section id="leituras-sugeridas-1" class="level2">
 <h2 class="anchored" data-anchor-id="leituras-sugeridas-1">Leituras sugeridas</h2>
@@ -1256,13 +1261,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1655,7 +1661,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Código fonte</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb27" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb27" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Dados abertos"</span></span>
 <span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Melina Leite e Gabriel Nakamura"</span></span>
 <span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
@@ -2414,7 +2420,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb27-759"><a href="#cb27-759" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE,eval=TRUE}</span></span>
 <span id="cb27-760"><a href="#cb27-760" aria-hidden="true" tabindex="-1"></a>vembedr<span class="sc">::</span><span class="fu">embed_url</span>(<span class="st">"https://vimeo.com/819068030"</span>)</span>
 <span id="cb27-761"><a href="#cb27-761" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
-</code><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+</code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

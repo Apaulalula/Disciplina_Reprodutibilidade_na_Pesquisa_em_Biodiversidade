@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Reprodutibilidade computacional em Ecologia e Evolução – Reprodutibilidade computacional e principios da ciência aberta</title>
+<title>Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade – Reprodutibilidade computacional e principios da ciência aberta</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -36,14 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-72412ffdb1e108b6e678acee5cb1fffa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-ff4589304b9f6383147e11e2e93ab800.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -261,7 +264,8 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./images/ECMVS_logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./images/ECMVS_logo.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="./images/ECMVS_logo.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main tools-wide">
     <a href="https://github.com/Lab-MMM/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta" title="Repositório do curso" class="quarto-navigation-tool px-1" aria-label="Repositório do curso"><i class="bi bi-github"></i></a>
@@ -490,7 +494,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./about.html">Informações sobre o curso</a></li><li class="breadcrumb-item"><a href="./index.html">Cronograma do curso</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Reprodutibilidade computacional em Ecologia e Evolução</h1>
+<h1 class="title">Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade</h1>
 </div>
 
 
@@ -512,6 +516,7 @@ ul.task-list li input[type="checkbox"] {
 <tr class="header">
 <th>Dia</th>
 <th>Data</th>
+<th>Turno</th>
 <th>Tópico</th>
 <th>Descrição</th>
 <th>Roteiros e códigos</th>
@@ -522,48 +527,107 @@ ul.task-list li input[type="checkbox"] {
 <tbody>
 <tr class="odd">
 <td>1</td>
-<td>10/08</td>
-<td>Ciência Aberta | Reprodutibilidade computacional | Apresentação da disciplina</td>
-<td>O movimento da ciência aberta, ferramentas computacionais para garantir um trabalho reprodutivo, dinâmica da disciplina</td>
+<td>30/11</td>
+<td>manhã</td>
+<td>Palestra Rede Brasileira de Reprodutibilidade - Eduarda Centeno</td>
+<td><p>O que é Ciência Aberta;</p>
+<p>Experiências práticas em Ciência Aberta;</p>
+<p>Atuação da Rede Brasileira de Reprodutibilidade.</p></td>
 <td><a href="https://lab-mmm.github.io/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta/aulas/01_ciencia_aberta/">💻</a></td>
 <td></td>
 <td><a href="https://lab-mmm.github.io/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta/aulas/01_ciencia_aberta/#leituras-recomendadas">📚</a></td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td>Tarde</td>
+<td><p>Introdução a disciplina |</p>
+<p>Reprodutibilidade nas pesquisas em ecologia e biodiversidade</p></td>
+<td><p>A crise de reprodutibilidade</p>
+<p>Estudo de caso: construção de uma dissertação e tese nos moldes de ciência abert<strong>a</strong></p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>2</td>
-<td>11/08</td>
-<td>Organização do diretório de trabalho e scripts | Introdução ao controle de versão</td>
-<td>Conhecendo os caminhos no computador | Pequena introdução ao terminal | Estrutura hierárquica de diretórios | Introdução ao Git como ferramenta para controle de versão</td>
+<td>01/12</td>
+<td>manhã</td>
+<td>Planejamento de Pesquisas reprodutíveis | Governança de dados e Tipos de Licença</td>
+<td>Construção de pré-registro de projetos de pesquisa | tipos de licença | príncipios de governança em projetos científicos</td>
 <td><a href="https://lab-mmm.github.io/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta/aulas/03_organizacao_local_caminhos/">💻</a></td>
 <td><a href="https://lab-mmm.github.io/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta/aulas/03_organizacao_local_caminhos/slides.html#/title-slide">📽</a></td>
 <td></td>
 </tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>tarde</td>
+<td>Plano de gerenciamento de dados | Príncipios FAIR</td>
+<td>Introdução aos príncipios FAIR e construção de um plano de gerenciamento de dados</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="odd">
 <td>3</td>
-<td>12/08</td>
-<td>Repositórios locais e remotos | Integração com IDE (RStudio) | Práticas em controle de versão</td>
-<td>Utilizando o Git e o Github de maneira integrada através do RStudio | Ações básicas para versionar seu repositório</td>
+<td>02/12</td>
+<td>manhã</td>
+<td>Organização do diretório de trabalho e scripts | Introdução ao controle de versão</td>
+<td>Estrutura hierárquica de diretórios | Introdução ao Git como ferramenta para controle de versão</td>
 <td><a href="https://lab-mmm.github.io/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta/aulas/05_intro_reprodutibilidade/">💻</a></td>
 <td><a href="https://lab-mmm.github.io/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta/aulas/05_intro_reprodutibilidade/slides.html#/title-slide">📽</a></td>
 <td>📚</td>
 </tr>
 <tr class="even">
+<td></td>
+<td></td>
+<td>tarde</td>
+<td>Repositórios locais e remotos | Integração com IDE (RStudio) | Práticas em controle de versão</td>
+<td>Utilizando o Git e o Github de maneira integrada através do RStudio | Ações básicas para versionar seu repositório</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="odd">
 <td>4</td>
-<td>13/07</td>
-<td>Trabalho colaborativo | Literate programming | Revisão de código</td>
-<td>Utilizando branches, forks, issues e resolvendo conflitos em trabalhos colaborativos | Utilizando markdown para produção de relatórios científicos, manuscritos e sites | Rodada de revisão de código entre participantes</td>
-<td><a href="./aulas/Aula1_phylo_trees.html">💻</a></td>
+<td>03/12</td>
+<td>manhã</td>
+<td>Literate programming | Repositórios permanentes</td>
+<td>Utilizando quarto para produção de relatórios científicos, manuscritos e sites | DOI e preservação digital</td>
+<td><a href=".\aulas/Aula1_phylo_trees.html">💻</a></td>
 <td>📽</td>
 <td>📚</td>
 </tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>tarde</td>
+<td>Preprints | Peer review aberto</td>
+<td>Repositórios de Preprints | Aspectos de análise para revisão de artigos com base na ciência aberta</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="odd">
 <td>5</td>
-<td>14/07</td>
-<td>Manejando versões de pacotes | Organizando o fluxo de trabalho | Finalização</td>
-<td>Utilização de ferramentas para manejar versões de pacotes e organização de fluxos de trabalho (renv e targets)</td>
-<td><a href="./aulas/Aula1_phylo_trees.html">💻</a></td>
+<td>04/12</td>
+<td>manhã</td>
+<td>Organizando o fluxo de trabalho | Finalização</td>
+<td>Organização de fluxos de trabalho dos projetos e commit no Github</td>
+<td><a href=".\aulas/Aula1_phylo_trees.html">💻</a></td>
 <td>📽</td>
 <td>📚</td>
+</tr>
+<tr class="even">
+<td></td>
+<td></td>
+<td>tarde</td>
+<td>Avaliação final</td>
+<td>Avaliação cruzada dos projetos reprodutíveis construidos durante a disciplina</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -635,13 +699,14 @@ ul.task-list li input[type="checkbox"] {
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
