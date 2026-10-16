@@ -622,7 +622,7 @@
     "href": "about.html",
     "title": "Sobre o curso",
     "section": "",
-    "text": "Olá!\nObrigado pelo interesse em participar da disciplina “Boas Práticas e Ferramentas da Ciência Aberta na Ecologia”. Nesta disciplina serão abordados conceitos teóricos, tendências e ferramentas computacionais para desenvolver pesquisas que vão ao encontro dos princípios e movimento da ciência aberta.\nEste sítio servirá como um guia para nossas aulas. Nele vocês encontrarão os materiais necessários bem como os scripts que utilizaremos durante as aulas para as atividades práticas. Ah! O site continuará funcionando após o término da disciplina, portanto, sempre que tiver alguma dúvida é só voltar aqui e revisitar o que vimos nas aulas.\nClique aqui para uma visão completa do cronograma",
+    "text": "Olá!\nBem-vinda e bem-vindo a disciplina “Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade”. Nesta disciplina abordaremos conceitos relacionados ao movimento da Ciência Aberta, além das tendências e ferramentas necessárias para conduzir pesquisas reprodutíveis na área de ecologia e biodiversidade.\nEste site conterá o conteúdo e cronograma da nossa aula. Assim como os materiais e scripts que utilizaremos durante o curso.\nClique aqui para uma visão completa do cronograma",
     "crumbs": [
       "Informações sobre o curso",
       "Apresentação"
@@ -633,7 +633,7 @@
     "href": "about.html#gabriel",
     "title": "Sobre o curso",
     "section": "Gabriel",
-    "text": "Gabriel\n\n\n\n\n\n\n\n\n\nSou formado em licenciatura em Ciências Biológicas (apesar da dúvida entre Ciências Sociais e História), fiz algumas andanças de difícil reprodutibilidade para obter o mestrado (Ecologia e Conservação UFMS) e doutorado (Ecologia UFRGS). Após um tempo fora (posdoc Texas A&M University), a saudade do pequi e da guariroba do cerrado falou mais alto e retornei como posdoc da Universidade Federal de Goiás no INCT-EECBio e depois como posdoc na Universidade de São Paulo (USP). Atualmente sou professor na Universidade Federal de Minas Gerais (UFMG). Venho desenvolvendo métodos e ferramentas computacionais em macroecologia e macroevolução. Aqui um pouquinho mais do que venho desenvolvendo.",
+    "text": "Gabriel\n\n\n\n\n\n\n\n\n\nFormado em licenciatura em Ciências Biológicas (apesar da dúvida entre Ciências Sociais e História), fiz algumas andanças de difícil reprodutibilidade para obter o mestrado (Ecologia e Conservação UFMS) e doutorado (Ecologia UFRGS). Após um tempo fora (posdoc Texas A&M University), a saudade do pequi e da guariroba do cerrado falou mais alto e retornei como posdoc da Universidade Federal de Goiás no INCT-EECBio e depois como posdoc na Universidade de São Paulo (USP). Atualmente sou professor na Universidade Federal de Minas Gerais (UFMG). Venho desenvolvendo métodos e ferramentas computacionais em macroecologia e macroevolução. Aqui um pouquinho mais do que venho desenvolvendo.",
     "crumbs": [
       "Informações sobre o curso",
       "Apresentação"
@@ -1164,6 +1164,39 @@
     "crumbs": [
       "Informações sobre o curso",
       "Cronograma do curso"
+    ]
+  },
+  {
+    "objectID": "about.html#ana-paula-lula-costa",
+    "href": "about.html#ana-paula-lula-costa",
+    "title": "Sobre o curso",
+    "section": "Ana Paula Lula Costa",
+    "text": "Ana Paula Lula Costa\n\n\n\n\n\n\n\n\n\nFormado em licenciatura em Ciências Biológicas (apesar da dúvida entre Ciências Sociais e História), fiz algumas andanças de difícil reprodutibilidade para obter o mestrado (Ecologia e Conservação UFMS) e doutorado (Ecologia UFRGS). Após um tempo fora (posdoc Texas A&M University), a saudade do pequi e da guariroba do cerrado falou mais alto e retornei como posdoc da Universidade Federal de Goiás no INCT-EECBio e depois como posdoc na Universidade de São Paulo (USP). Atualmente sou professor na Universidade Federal de Minas Gerais (UFMG). Venho desenvolvendo métodos e ferramentas computacionais em macroecologia e macroevolução. Aqui um pouquinho mais do que venho desenvolvendo.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "about.html#eduarda-centeno",
+    "href": "about.html#eduarda-centeno",
+    "title": "Sobre o curso",
+    "section": "Eduarda Centeno",
+    "text": "Eduarda Centeno\n\n\n\n\n\n\n\n\n\nSou ecóloga e cientista de dados na Universidade de Regemsbirg. Tenho graduação em biologia (UFRJ), mestrado (UFRJ) e doutorado em Ecologia (USP). Acumulei também um MBA em Gestão Ambiental (Poli-USP) e MBA em Ciência de Dados (ESALQ-USP). Ao longo dos anos trabalhei em diferentes áreas da ecologia e biologia da conservação como ecologia da paisagem, de comunidades, de populações e ecologia aplicada. Tenho bastante interesse na aplicação métodos estatísticos para descobertas ecológicas (modelos mistos são meu xodó). Adoro escalada, trilhas e esportes de aventura no geral! Ah, e sou uma entusiasta do movimento da Ciência Aberta!! Para me achar e saber mais sobre mim, veja meu site.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
+    ]
+  },
+  {
+    "objectID": "about.html#matheus-salles",
+    "href": "about.html#matheus-salles",
+    "title": "Sobre o curso",
+    "section": "Matheus Salles",
+    "text": "Matheus Salles\n\n\n\n\n\n\n\n\n\nSou ecóloga e cientista de dados na Universidade de Regemsbirg. Tenho graduação em biologia (UFRJ), mestrado (UFRJ) e doutorado em Ecologia (USP). Acumulei também um MBA em Gestão Ambiental (Poli-USP) e MBA em Ciência de Dados (ESALQ-USP). Ao longo dos anos trabalhei em diferentes áreas da ecologia e biologia da conservação como ecologia da paisagem, de comunidades, de populações e ecologia aplicada. Tenho bastante interesse na aplicação métodos estatísticos para descobertas ecológicas (modelos mistos são meu xodó). Adoro escalada, trilhas e esportes de aventura no geral! Ah, e sou uma entusiasta do movimento da Ciência Aberta!! Para me achar e saber mais sobre mim, veja meu site.",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Apresentação"
     ]
   }
 ]
