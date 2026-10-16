@@ -16,13 +16,13 @@ website:
         
   sidebar:
     background: "#D9E3E4"
-    logo: "images/ECMVS_logo.png"
+    logo: "images/ppgeco_logo.jfif"
     align: center
     style: "docked"
     search: true
     tools: 
       - icon: github
-        href: https://github.com/Lab-MMM/Disciplina_Reprodutibilidade_Computacional_Ciencia_Aberta
+        href: https://github.com/Apaulalula/Disciplina_Reprodutibilidade_na_Pesquisa_em_Biodiversidade
         text: "Repositório do curso"
       - icon: globe
         href: https://gabrielnakamura.netlify.app/
