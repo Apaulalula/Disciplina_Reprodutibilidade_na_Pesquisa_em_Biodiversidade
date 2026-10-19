@@ -12,7 +12,7 @@ Este site conterá o conteúdo e cronograma da nossa aula. Assim como os materia
 
 # Ministrantes
 
-O curso será ministrado é coordenado pela Dra. Ana Paula Lula Costa, e pelo Dr. Matheus Salles. Ainda, contará com a presença da Dra. Eduarda Centeno e pelo Dr. Gabriel Nakamura.
+O curso é coordenado pela Dra. Ana Paula Lula Costa, e pelo Dr. Matheus Salles. Ainda, contará com a presença da Dra. Eduarda Centeno e pelo Dr. Gabriel Nakamura.
 
 ## Ana Paula Lula Costa
 
@@ -21,7 +21,14 @@ O curso será ministrado é coordenado pela Dra. Ana Paula Lula Costa, e pelo Dr
 knitr::include_graphics("images/AnaPaulaLula.jpg")
 ```
 
-Formado em licenciatura em Ciências Biológicas (apesar da dúvida entre Ciências Sociais e História), fiz algumas andanças de difícil reprodutibilidade para obter o mestrado (Ecologia e Conservação UFMS) e doutorado (Ecologia UFRGS). Após um tempo fora (posdoc Texas A&M University), a saudade do pequi e da guariroba do cerrado falou mais alto e retornei como posdoc da Universidade Federal de Goiás no INCT-EECBio e depois como posdoc na Universidade de São Paulo (USP). Atualmente sou professor na Universidade Federal de Minas Gerais (UFMG). Venho desenvolvendo métodos e ferramentas computacionais em macroecologia e macroevolução. [Aqui](http://lattes.cnpq.br/2456515948049565) um pouquinho mais do que venho desenvolvendo.
+Bióloga pela Universidade Estadual de Maringá (UEM), mestre e doutora em Ecologia e Conservação pela Universidade Federal do Paraná (UFPR). Atualmente atua como pesquisadora de pós-doutorado na Fundação Oswaldo Cruz (PROCC/FIOCRUZ), no Programa de Computação Científica. Sua pesquisa investiga a influência das mudanças da paisagem, das trajetórias produtivas e do clima na dinâmica de trasnmissão de zoonoses entre animais silvestres, vetores e humanos. Ana Paula também atua como coordenadora de conteúdo no projeto Mulheres na Ecologia, que visa aumentar a visibilidade de Mulheres que trabalham com ecologia no Brasil, sendo também embaixadora da RBR em 2025-2026.
+
+## Matheus Salles
+
+```{r echo=FALSE,eval=TRUE,out.width="20%"} knitr::include_graphics("images/melina-foto.png")}
+```
+
+Doutor em Zoologia na UFPR e trabalha com Biologia Evolutiva, com foco na aplicação de técnicas de aprendizado de máquina para resolver diferentes problemas biológicos. Ele é membro fundador da Sociedade Brasileira de Biologia Evolutiva e foi seu primeiro diretor de assuntos estudantis. Matheus se dedica a fortalecer práticas científicas e transparência na Biologia Evolutiva, sendo embaixador da RBR entre 2024-2025. Além do mundo acadêmico, ele tem grande interesse em divulgação científica e já trabalhou como criador e revisor de conteúdo científico para o público em geral em organizações como o TED e o canal Nerdologia.
 
 ## Gabriel
 
@@ -37,12 +44,4 @@ Formado em licenciatura em Ciências Biológicas (apesar da dúvida entre Ciênc
 knitr::include_graphics("images/melina-foto.png")
 ```
 
-Sou ecóloga e cientista de dados na Universidade de Regemsbirg. Tenho graduação em biologia (UFRJ), mestrado (UFRJ) e doutorado em Ecologia (USP). Acumulei também um MBA em Gestão Ambiental (Poli-USP) e MBA em Ciência de Dados (ESALQ-USP). Ao longo dos anos trabalhei em diferentes áreas da ecologia e biologia da conservação como ecologia da paisagem, de comunidades, de populações e ecologia aplicada. Tenho bastante interesse na aplicação métodos estatísticos para descobertas ecológicas (modelos mistos são meu xodó). Adoro escalada, trilhas e esportes de aventura no geral! Ah, e sou uma entusiasta do movimento da **Ciência Aberta**!! Para me achar e saber mais sobre mim, veja meu [site](https://melinaleite.weebly.com/).
-
-## Matheus Salles
-
-```{r echo=FALSE,eval=TRUE,out.width="20%"}
-knitr::include_graphics("images/melina-foto.png")
-```
-
-Sou ecóloga e cientista de dados na Universidade de Regemsbirg. Tenho graduação em biologia (UFRJ), mestrado (UFRJ) e doutorado em Ecologia (USP). Acumulei também um MBA em Gestão Ambiental (Poli-USP) e MBA em Ciência de Dados (ESALQ-USP). Ao longo dos anos trabalhei em diferentes áreas da ecologia e biologia da conservação como ecologia da paisagem, de comunidades, de populações e ecologia aplicada. Tenho bastante interesse na aplicação métodos estatísticos para descobertas ecológicas (modelos mistos são meu xodó). Adoro escalada, trilhas e esportes de aventura no geral! Ah, e sou uma entusiasta do movimento da **Ciência Aberta**!! Para me achar e saber mais sobre mim, veja meu [site](https://melinaleite.weebly.com/).
+Biotecnologista formada pela UFPel, mestre e doutora em Neurociências. É Diretora Executiva da Rede Brasileira de Reprodutibilidade. Possui experiência na coordenação e execução de projetos de pesquisa (neurociência computacional) e de ciência aberta. Para saber mais sobre a Eduarda, veja o [site](https://eduardacenteno.com/).

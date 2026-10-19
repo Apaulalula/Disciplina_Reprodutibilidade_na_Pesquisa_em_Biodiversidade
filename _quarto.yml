@@ -24,9 +24,6 @@ website:
       - icon: github
         href: https://github.com/Apaulalula/Disciplina_Reprodutibilidade_na_Pesquisa_em_Biodiversidade
         text: "Repositório do curso"
-      - icon: globe
-        href: https://gabrielnakamura.netlify.app/
-        text: "Website pessoal"
     
     contents:
       - section: "Informações sobre o curso"
