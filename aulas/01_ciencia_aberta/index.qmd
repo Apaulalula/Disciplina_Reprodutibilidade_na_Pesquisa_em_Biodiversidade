@@ -12,39 +12,20 @@ bibliography: references.bib
 
 # O que é ciência aberta?
 
-Nesta primeira aula, navegaremos pelas fascinantes paisagens da ciência aberta,
-    avaliando sua origem, histórico e múltiplos significados.
+Nesta primeira aula, navegaremos pelas fascinantes paisagens da ciência aberta, avaliando sua origem, histórico e múltiplos significados.
 
-A **ciência aberta** é um movimento dentro da ciência que busca a abertura do
-    processo de conhecimento científico, de forma que **TODAS** as atividades
-    científicas, e não só o resultado final, sejam praticadas de forma
-    transparente, colaborativa, e que seus resultados sejam confiáveis e
-    re-utilizáveis, tanto para outros cientistas quanto para a sociedade em
-    geral.
+A **ciência aberta** é um movimento dentro da ciência que busca a abertura do processo de conhecimento científico, de forma que **TODAS** as atividades científicas, e não só o resultado final, sejam praticadas de forma transparente, colaborativa, e que seus resultados sejam confiáveis e re-utilizáveis, tanto para outros cientistas quanto para a sociedade em geral.
 
-A grosso modo, podemos dizer que a ciência aberta é um grande guarda-chuva
-    formado por várias iniciativas de reestruturação da forma de fazer ciência,
-    e portanto, recebe influência de diferentes agentes como os próprios
-    cientistas, as agências de fomento/financiadores, governos, e cidadãos.
+A grosso modo, podemos dizer que a ciência aberta é um grande guarda-chuva formado por várias iniciativas de reestruturação da forma de fazer ciência, e portanto, recebe influência de diferentes agentes como os próprios cientistas, as agências de fomento/financiadores, governos, e cidadãos.
 
-Nesta aula, vamos discutir primeiro o que **não é ciência aberta** - má conduta,
-    fraudes, plágio, pesquisa irreprodutível, erros não corrigidos - e a
-    importância da **integridade e boas práticas científicas.**
+Nesta aula, vamos discutir primeiro o que **não é ciência aberta** - má conduta, fraudes, plágio, pesquisa irreprodutível, erros não corrigidos - e a importância da **integridade e boas práticas científicas.**
 
-Vamos refletir um pouco em como a **má ciência** pode estar sendo selecionada no
-    ambiente acadêmico (@ioannidisWhyScienceNot2012a, @smaldinoNaturalSelectionBad2016a) devido a incentivos institucionais
-    destorcidos voltados para quantidade - "publish-A-LOT-or-perish", o
-    prestígio manipulado por revistas e as métricas de qualidade/quantidade
-    usadas para avaliação de revistas, pesquisadores e instituições.
+Vamos refletir um pouco em como a **má ciência** pode estar sendo selecionada no ambiente acadêmico (@ioannidisWhyScienceNot2012a, @smaldinoNaturalSelectionBad2016a) devido a incentivos institucionais destorcidos voltados para quantidade - "publish-A-LOT-or-perish", o prestígio manipulado por revistas e as métricas de qualidade/quantidade usadas para avaliação de revistas, pesquisadores e instituições.
 
-Discutiremos as principais **dimensões da ciência aberta**, taxonomias e
-    esquemas que nos ajudem a entender um pouco melhor os principais elementos
-    do movimento da ciência aberta.
+Discutiremos as principais **dimensões da ciência aberta**, taxonomias e esquemas que nos ajudem a entender um pouco melhor os principais elementos do movimento da ciência aberta.
 
-Abordaremos algumas **políticas de ciência aberta**, focada em iniciativas
-   nacionais e a reflexão sobre os vários discursos de ciência aberta dentro
-   destas políticas nacionais, internacionais e supra-nacionais.
-   
+Abordaremos algumas **políticas de ciência aberta**, focada em iniciativas nacionais e a reflexão sobre os vários discursos de ciência aberta dentro destas políticas nacionais, internacionais e supra-nacionais.
+
 # Razões para a Ciência Aberta
 
 Abaixo, 10 razões para praticarmos e nos importamos com uma ciência mais aberta (retirado do [curso da FioCruz sobre ciência aberta](https://campusvirtual.fiocruz.br/portal/node/38010), recomendo fazer!):
@@ -101,8 +82,7 @@ Abaixo, 10 razões para praticarmos e nos importamos com uma ciência mais abert
 
 15. Open Government Declaration. In: Open Government Partnership. [https://www.opengovpartnership.org/process/joining-ogp/open-government-declaration/](https://www.opengovpartnership.org/process/joining-ogp/open-government-declaration/.)
 
-16. Transparência em Ciência: novos mecanismos de avaliação para o avanço da Ciência Aberta - Monitoramento e Execução. In: Controladoria-Geral da União. <https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/5o-plano-de-acao-brasileiro/compromisso-8-transparencia-em-ciencia-novos-mecanismos-de-avaliacao-para-o-avanco-da-cie
-ncia-aberta/meio-ambiente-e-floresta-monitoramento-e-execucao.>
+16. Transparência em Ciência: novos mecanismos de avaliação para o avanço da Ciência Aberta - Monitoramento e Execução. In: Controladoria-Geral da União. \<https://www.gov.br/cgu/pt-br/governo-aberto/a-ogp/planos-de-acao/5o-plano-de-acao-brasileiro/compromisso-8-transparencia-em-ciencia-novos-mecanismos-de-avaliacao-para-o-avanco-da-cie ncia-aberta/meio-ambiente-e-floresta-monitoramento-e-execucao.\>
 
 17. [O Oscar do microscopista: A ciência precisa superar o conceito de autoria para se adaptar ao século XXI](https://www1.folha.uol.com.br/blogs/ciencia-fundamental/2022/05/o-oscar-do-microscopista.shtml)
 
@@ -126,7 +106,7 @@ ncia-aberta/meio-ambiente-e-floresta-monitoramento-e-execucao.>
 
 24. Novo curso da Fiocruz trata da gestão e compartilhamento de dados abertos de pesquisa. In: Portal de Periódicos - Fiocruz.<https://periodicos.fiocruz.br/node/1063>
 
-25. O que é Ciência Aberta? - 1º Oferta. In: Campus Virtual Fiocruz.< https://campusvirtual.fiocruz.br/portal/?q=node/38010>
+25. O que é Ciência Aberta? - 1º Oferta. In: Campus Virtual Fiocruz.\< https://campusvirtual.fiocruz.br/portal/?q=node/38010\>
 
 26. Open Science \@ FAPESP. <https://fapesp.br/openscience/>
 
