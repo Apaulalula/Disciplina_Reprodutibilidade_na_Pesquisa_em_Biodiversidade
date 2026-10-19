@@ -40,6 +40,8 @@ website:
           contents:
           - text: "Fundamentos da Ciência Aberta"
             href: aulas/01_ciencia_aberta/index.qmd
+        - section: "Gestão de projetos e dados abertos"
+          contents:
           - text: "Gestão de Dados abertos"
             href: aulas/02_gestão_dados/index.qmd
         - section: "Organização de diretórios"
