@@ -36,12 +36,12 @@ website:
             href: links.qmd
       - section: "Aulas"
         contents: 
-        - section: "Introdução a ciência aberta"
+        - section: "Fundamentos da ciência aberta"
           contents:
-          - text: "Introdução a Ciência Aberta"
+          - text: "Fundamentos da Ciência Aberta"
             href: aulas/01_ciencia_aberta/index.qmd
-          - text: "Dados abertos"
-            href: aulas/02_dados_abertos/index.qmd
+          - text: "Gestão de Dados abertos"
+            href: aulas/02_gestão_dados/index.qmd
         - section: "Organização de diretórios"
           contents:
           - text: "Organização do diretório de trabalho local"
@@ -51,36 +51,22 @@ website:
         - section: "Versionamento"
           contents: 
           - text: "Ferramentas para controle de versão"
-            href: aulas/05_intro_reprodutibilidade/index.qmd
+            href: aulas/05_reprod_computacional/index.qmd
           - text: "Introdução ao controle de versão"
             href: aulas/06_git_github_basics/index.qmd
           - text: "Viajando no tempo"
             href: aulas/07_navegando_versoes/index.qmd
-          - text: "Trabalho colaborativo - branches, forks, pull requests, issues"
-          - text: "Ignorando e manejando arquivos"
-            href: aulas/08_ignorando_manejando_arquivos/index.qmd
-          - text: "Trabalho colaborativo"
-            href: aulas/09_colaboracao_github/index.qmd
-          - text: "Conflitos e como evitá-los (ou resolvê-los)"
-            href: aulas/aula3_descricao-padroes_II/index.qmd
-          - text: "Versionando pacotes e dependências"
-            href: aulas/aula3_descricao-padroes_II/index.qmd
-          - text: "Releases e depósito permanente"
-            href: aulas/aula3_descricao-padroes_II/index.qmd
           - text: "Glossário do versionamento"
             href: aulas/glossario/index.qmd
+        - section: "Comunicação Científica Aberta"
+          contents: 
+          - text: "Avaliação crítica da reprodutibilidade de artigos científicos"
+            href: aulas/08_Com_cientifica_aberta/index.qmd
         - section: "Documentos dinâmicos"
           contents: 
           - text: "O que são e como funcionam"
             href: aulas/dynamic_quarto_Rmarkdown/index.qmd
-          - text: "Além do artigo - materiais suplementares, vinhetas, sítios públicos"
-            href: aulas/aula3_descricao-padroes_II/index.qmd
-        - section: "Manejo de ambientes"
-          contents:
-          - text: "Utilizando o pacote renv"
-            href: aulas/aula3_descricao-padroes_II/index.qmd
-          - text: "Outras alternativas"
-            href: aulas/aula3_descricao-padroes_II/index.qmd
+
 format:
   html:
     theme:
