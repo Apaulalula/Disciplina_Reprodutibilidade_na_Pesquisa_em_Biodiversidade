@@ -16,7 +16,7 @@ website:
         
   sidebar:
     background: "#D9E3E4"
-    logo: "images/ppgeco_logo.jfif"
+    logo: "images/Logo sem fundo_RBR.avif"
     align: center
     style: "docked"
     search: true

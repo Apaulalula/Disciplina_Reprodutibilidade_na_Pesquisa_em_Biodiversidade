@@ -20,9 +20,7 @@ format:
 
 ## Viajando no tempo: commits
 
-> Commits são como fotografias com anotações em seu verso. Eles nos
-    ajudam a lembrar o estado do seu trabalho naquele exato momento 
-    registrado
+> Commits são como fotografias com anotações em seu verso. Eles nos ajudam a lembrar o estado do seu trabalho naquele exato momento registrado
 
 ## Commits: navegando com segurança
 
@@ -37,4 +35,3 @@ format:
 ![](figuras/commit-safe-3.jpg){fig-align="center" width="80%"}
 
 ## Commits na prática: visualizando os commits
-

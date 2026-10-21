@@ -1253,7 +1253,7 @@
     "href": "aulas/05_reprod_computacional/slides.html#olá-quem-somos",
     "title": "Ferramentas de ciência aberta",
     "section": "Olá! Quem somos",
-    "text": "Olá! Quem somos\n\nGabriel"
+    "text": "Olá! Quem somos\nGabriel"
   },
   {
     "objectID": "aulas/05_reprod_computacional/slides.html#o-início",
@@ -1267,14 +1267,14 @@
     "href": "aulas/05_reprod_computacional/slides.html#reprodutibilidade",
     "title": "Ferramentas de ciência aberta",
     "section": "Reprodutibilidade",
-    "text": "Reprodutibilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÉ tempo de se falar sobre memória"
+    "text": "Reprodutibilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nÉ tempo de se falar sobre memória"
   },
   {
     "objectID": "aulas/05_reprod_computacional/slides.html#reprodutibilidade-por-que",
     "href": "aulas/05_reprod_computacional/slides.html#reprodutibilidade-por-que",
     "title": "Ferramentas de ciência aberta",
     "section": "Reprodutibilidade: Por que?",
-    "text": "Reprodutibilidade: Por que?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“O artigo científico é o Tinder da Ciência. Não é exatamente mentira, mas somos espertos o suficiente para não casar com alguém só pelo seu perfil aparente”"
+    "text": "Reprodutibilidade: Por que?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n“O artigo científico é o Tinder da Ciência. Não é exatamente mentira, mas somos espertos o suficiente para não casar com alguém só pelo seu perfil aparente”"
   },
   {
     "objectID": "aulas/05_reprod_computacional/slides.html#reprodutibilidade-a-importância-do-processo-1",
@@ -1743,5 +1743,12 @@
       "Comunicação Científica Aberta",
       "Avaliação crítica da reprodutibilidade de artigos científicos"
     ]
+  },
+  {
+    "objectID": "aulas/08_Com_cientifica_aberta/slides.html#viajando-no-tempo",
+    "href": "aulas/08_Com_cientifica_aberta/slides.html#viajando-no-tempo",
+    "title": "Viajando no tempo",
+    "section": "Viajando no tempo",
+    "text": "Viajando no tempo"
   }
 ]
