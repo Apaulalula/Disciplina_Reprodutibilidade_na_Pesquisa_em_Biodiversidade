@@ -44,9 +44,56 @@ Rmarkdown é um tipo de arquivo utilizado para produção de documentos dinâmic
 
 ### Anatomia geral
 
-Um documento em quarto
+Tanto os documentos em quarto (extensão `.qmd`) quanto os documentos do tipo Rmarkdown (`.rmd`) irão apresentar, de maneira geral, três componentes:
 
-## Rmarkdown
+- Um cabeçalho `yaml` 
+- Textos
+- Chunks de código
+
+O cabeçalho YAML (YAML header) é um bloco de metadados escrito no início de um documento Quarto (.qmd) ou R Markdown (.Rmd). Ele define as configurações gerais do documento, como título, autor, data, formato de saída e opções de apresentação. Em termos simples, o cabeçalho YAML funciona como uma configuração inicial que informa ao mecanismo de renderização como o documento deve ser interpretado e apresentado.
+
+Existem inúmeras opções de configurações que podem ser ajustadas no cabeçalho yaml, por exemplo, a figura abaixo mostra uma configuração básica de um documento quarto que será renderizado no formato html, com identificação do autor, o título do documento e como os chunks de código deverão se comportar nesse documento
+
+```{r echo=FALSE,eval=T,fig.cap="Um cabeçalho yaml com uma pequena amostra de opções para configuração"}
+#| label: fig-yamlheader
+knitr::include_graphics("figuras/yaml_header.png")
+```
+
+Em um documento dinâmico **os textos** podem ser inseridos diretamente, entre o cabeçalho yaml e chunks de códigos. Por fim, os **chunks** são pedaços de código entre texto. 
+
+```{r echo=FALSE,eval=T,fig.cap="Exemplo do formato simplificado de um chunk code"}
+#| label: fig-chunkcode
+knitr::include_graphics("figuras/chunk_geral.png")
+```
+
+O chunk possui três partes:
+1. Abertura: indica o início do bloco e a linguagem utilizada ({r}).
+2. Conteúdo: contém as instruções e operações que serão executadas.
+3. Fechamento: três acentos graves (```) indicam o final do bloco.
+
+Além disso, o chunk pode receber argumentos que configuram o seu comportamento individual no documento quarto. Esses argumentos são passados como indicado na seguinte figura:
+
+```{r echo=FALSE,eval=T,fig.cap="Exemplo do formato simplificado de um chunk code"}
+#| label: fig-chunkcode2
+knitr::include_graphics("figuras/chunk_geral2.png")
+```
+
+Existem inúmeras opções que podem ser utilizadas para configurar o comportamento do chunk, como mostrado na tabela abaixo
+
+| Opção | Função |
+|:---|:---|
+| `echo` | Define se o código será exibido no documento final. |
+| `eval` | Define se o código será executado. |
+| `include` | Define se o código e seus resultados serão incluídos no documento. |
+| `warning` | Controla a exibição de avisos (*warnings*). |
+| `message` | Controla a exibição de mensagens. |
+| `error` | Define se erros de execução serão apresentados no documento. |
+| `results` | Controla como os resultados textuais serão apresentados. |
+| `fig.width` | Define a largura dos gráficos, em polegadas. |
+| `fig.height` | Define a altura dos gráficos, em polegadas. |
+| `fig.align` | Define o alinhamento dos gráficos. |
+| `cache` | Permite armazenar resultados para evitar reexecutar códigos que não foram modificados. |
+
 
 # Slides da aula
 

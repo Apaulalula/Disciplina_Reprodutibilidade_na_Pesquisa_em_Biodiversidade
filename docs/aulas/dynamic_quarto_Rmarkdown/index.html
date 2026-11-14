@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.7.32">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,9 +10,6 @@
 
 <title>Documentos dinâmicos – Reprodutibilidade computacional e principios da ciência aberta</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -63,6 +60,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
+  margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
   margin-left:2em;
@@ -94,14 +92,14 @@ div.csl-indent {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-ff4589304b9f6383147e11e2e93ab800.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-72412ffdb1e108b6e678acee5cb1fffa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -319,8 +317,7 @@ div.csl-indent {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/Logo sem fundo_RBR.avif" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
-      <img src="../../images/Logo sem fundo_RBR.avif" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
+      <img src="../../images/Logo sem fundo_RBR.avif" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/Apaulalula/Disciplina_Reprodutibilidade_na_Pesquisa_em_Biodiversidade" title="Repositório do curso" class="quarto-navigation-tool px-1" aria-label="Repositório do curso"><i class="bi bi-github"></i></a>
@@ -518,7 +515,6 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#anatomia-geral" id="toc-anatomia-geral" class="nav-link" data-scroll-target="#anatomia-geral">Anatomia geral</a></li>
   </ul></li>
-  <li><a href="#rmarkdown-1" id="toc-rmarkdown-1" class="nav-link" data-scroll-target="#rmarkdown-1">Rmarkdown</a></li>
   </ul></li>
   <li><a href="#slides-da-aula" id="toc-slides-da-aula" class="nav-link" data-scroll-target="#slides-da-aula">Slides da aula</a></li>
   </ul>
@@ -587,11 +583,119 @@ Figura&nbsp;1: Quarto e Rmarkdown são como um peixe Babel, ele faz você falar 
 <p>Rmarkdown é um tipo de arquivo utilizado para produção de documentos dinâmicos, tal como o Quarto, visto na seção anterior. Da mesma maneira, o Rmarkdown possibilita misturar texto e códigos em um mesmo documento, que pode ser gerado em diferentes formatos (incluindo o html). A diferença entre Quarto e Rmarkdown está principalmente na maior versatilidade do primeiro em termos de diferentes linguagens de códigos que podem ser inseridos no documento, bem como a variedade de formatos de documentos que podem ser produzidos.</p>
 <section id="anatomia-geral" class="level3">
 <h3 class="anchored" data-anchor-id="anatomia-geral">Anatomia geral</h3>
-<p>Um documento em quarto</p>
+<p>Tanto os documentos em quarto (extensão <code>.qmd</code>) quanto os documentos do tipo Rmarkdown (<code>.rmd</code>) irão apresentar, de maneira geral, três componentes:</p>
+<ul>
+<li>Um cabeçalho <code>yaml</code></li>
+<li>Textos</li>
+<li>Chunks de código</li>
+</ul>
+<p>O cabeçalho YAML (YAML header) é um bloco de metadados escrito no início de um documento Quarto (.qmd) ou R Markdown (.Rmd). Ele define as configurações gerais do documento, como título, autor, data, formato de saída e opções de apresentação. Em termos simples, o cabeçalho YAML funciona como uma configuração inicial que informa ao mecanismo de renderização como o documento deve ser interpretado e apresentado.</p>
+<p>Existem inúmeras opções de configurações que podem ser ajustadas no cabeçalho yaml, por exemplo, a figura abaixo mostra uma configuração básica de um documento quarto que será renderizado no formato html, com identificação do autor, o título do documento e como os chunks de código deverão se comportar nesse documento</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-yamlheader" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-yamlheader-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figuras/yaml_header.png" class="img-fluid figure-img" width="468">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-yamlheader-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;2: Um cabeçalho yaml com uma pequena amostra de opções para configuração
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Em um documento dinâmico <strong>os textos</strong> podem ser inseridos diretamente, entre o cabeçalho yaml e chunks de códigos. Por fim, os <strong>chunks</strong> são pedaços de código entre texto.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-chunkcode" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chunkcode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figuras/chunk_geral.png" class="img-fluid figure-img" width="469">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chunkcode-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;3: Exemplo do formato simplificado de um chunk code
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>O chunk possui três partes: 1. Abertura: indica o início do bloco e a linguagem utilizada ({r}). 2. Conteúdo: contém as instruções e operações que serão executadas. 3. Fechamento: três acentos graves (```) indicam o final do bloco.</p>
+<p>Além disso, o chunk pode receber argumentos que configuram o seu comportamento individual no documento quarto. Esses argumentos são passados como indicado na seguinte figura:</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-chunkcode2" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-chunkcode2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="figuras/chunk_geral2.png" class="img-fluid figure-img" width="468">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-chunkcode2-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4: Exemplo do formato simplificado de um chunk code
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>Existem inúmeras opções que podem ser utilizadas para configurar o comportamento do chunk, como mostrado na tabela abaixo</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Opção</th>
+<th style="text-align: left;">Função</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><code>echo</code></td>
+<td style="text-align: left;">Define se o código será exibido no documento final.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>eval</code></td>
+<td style="text-align: left;">Define se o código será executado.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>include</code></td>
+<td style="text-align: left;">Define se o código e seus resultados serão incluídos no documento.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>warning</code></td>
+<td style="text-align: left;">Controla a exibição de avisos (<em>warnings</em>).</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>message</code></td>
+<td style="text-align: left;">Controla a exibição de mensagens.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>error</code></td>
+<td style="text-align: left;">Define se erros de execução serão apresentados no documento.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>results</code></td>
+<td style="text-align: left;">Controla como os resultados textuais serão apresentados.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>fig.width</code></td>
+<td style="text-align: left;">Define a largura dos gráficos, em polegadas.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>fig.height</code></td>
+<td style="text-align: left;">Define a altura dos gráficos, em polegadas.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><code>fig.align</code></td>
+<td style="text-align: left;">Define o alinhamento dos gráficos.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><code>cache</code></td>
+<td style="text-align: left;">Permite armazenar resultados para evitar reexecutar códigos que não foram modificados.</td>
+</tr>
+</tbody>
+</table>
 </section>
-</section>
-<section id="rmarkdown-1" class="level2">
-<h2 class="anchored" data-anchor-id="rmarkdown-1">Rmarkdown</h2>
 </section>
 </section>
 <section id="slides-da-aula" class="level1">
@@ -606,12 +710,12 @@ Figura&nbsp;1: Quarto e Rmarkdown são como um peixe Babel, ele faz você falar 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Referências</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
 <div id="ref-buckley_using_2025" class="csl-entry" role="listitem">
-Buckley, Yvonne M., Richard Bardgett, Rowena Gordon, et al. 2025. <span>“Using dynamic documents to mend cracks in the reproducible research pipeline”</span>. <em>Journal of Ecology</em> 113 (2): 270–74. <a href="https://doi.org/10.1111/1365-2745.14454">https://doi.org/10.1111/1365-2745.14454</a>.
+Buckley, Yvonne M., Richard Bardgett, Rowena Gordon, Amy Iler, Pierre Mariotte, Samantha Ponton, e Andy Hector. 2025. <span>“Using dynamic documents to mend cracks in the reproducible research pipeline”</span>. <em>Journal of Ecology</em> 113 (2): 270–74. <a href="https://doi.org/10.1111/1365-2745.14454">https://doi.org/10.1111/1365-2745.14454</a>.
 </div>
 <div id="ref-ivimey-cookImplementingCodeReview2023" class="csl-entry" role="listitem">
-Ivimey-Cook, Edward Richard, Joel L. Pick, Kevin Bairos-Novak, et al. 2023. <em>Implementing <span>Code</span> <span>Review</span> in the <span>Scientific</span> <span>Workflow</span>: <span>Insights</span> from <span>Ecology</span> and <span>Evolutionary</span> <span>Biology</span></em>. EcoEvoRxiv. <a href="https://ecoevorxiv.org/repository/view/5393/">https://ecoevorxiv.org/repository/view/5393/</a>.
+Ivimey-Cook, Edward Richard, Joel L. Pick, Kevin Bairos-Novak, Antica Culina, Elliot Gould, Matthew Grainger, Benjamin Marshall, et al. 2023. <span>“Implementing <span>Code</span> <span>Review</span> in the <span>Scientific</span> <span>Workflow</span>: <span>Insights</span> from <span>Ecology</span> and <span>Evolutionary</span> <span>Biology</span>”</span>. EcoEvoRxiv: EcoEvoRxiv. <a href="https://ecoevorxiv.org/repository/view/5393/">https://ecoevorxiv.org/repository/view/5393/</a>.
 </div>
 </div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -678,14 +782,13 @@ Ivimey-Cook, Edward Richard, Joel L. Pick, Kevin Bairos-Novak, et al. 2023. <em>
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-      const outerScaffold = trigger.parentElement.cloneNode(true);
-      const codeEl = outerScaffold.querySelector('code');
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
+        const codeEl = trigger.previousElementSibling.cloneNode(true);
+        for (const childEl of codeEl.children) {
+          if (isCodeAnnotation(childEl)) {
+            childEl.remove();
+          }
         }
-      }
-      return codeEl.innerText;
+        return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -1078,7 +1181,7 @@ Ivimey-Cook, Edward Richard, Joel L. Pick, Kevin Bairos-Novak, et al. 2023. <em>
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Código fonte</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Documentos dinâmicos"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Gabriel Nakamura | Laboratório de Macroecologia, Macroevolução e Métodos quantitativos"</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
@@ -1124,19 +1227,66 @@ Ivimey-Cook, Edward Richard, Joel L. Pick, Kevin Bairos-Novak, et al. 2023. <em>
 <span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="fu">### Anatomia geral</span></span>
 <span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Um documento em quarto</span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a>Tanto os documentos em quarto (extensão <span class="in">`.qmd`</span>) quanto os documentos do tipo Rmarkdown (<span class="in">`.rmd`</span>) irão apresentar, de maneira geral, três componentes:</span>
 <span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## Rmarkdown</span></span>
-<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="fu"># Slides da aula</span></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Um cabeçalho <span class="in">`yaml`</span> </span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Textos</span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Chunks de código</span>
 <span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>Aqui você encontra os slides apresentados em aula sobre esse tópico</span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a>O cabeçalho YAML (YAML header) é um bloco de metadados escrito no início de um documento Quarto (.qmd) ou R Markdown (.Rmd). Ele define as configurações gerais do documento, como título, autor, data, formato de saída e opções de apresentação. Em termos simples, o cabeçalho YAML funciona como uma configuração inicial que informa ao mecanismo de renderização como o documento deve ser interpretado e apresentado.</span>
 <span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Tela cheia 📺</span><span class="co">](slides.qmd)</span></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a>Existem inúmeras opções de configurações que podem ser ajustadas no cabeçalho yaml, por exemplo, a figura abaixo mostra uma configuração básica de um documento quarto que será renderizado no formato html, com identificação do autor, o título do documento e como os chunks de código deverão se comportar nesse documento</span>
 <span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="in">```{=html}</span></span>
-<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="in">&lt;iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"&gt;&lt;/iframe&gt;</span></span>
-<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE,eval=T,fig.cap="Um cabeçalho yaml com uma pequena amostra de opções para configuração"}</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-yamlheader</span></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"figuras/yaml_header.png"</span>)</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a>Em um documento dinâmico **os textos** podem ser inseridos diretamente, entre o cabeçalho yaml e chunks de códigos. Por fim, os **chunks** são pedaços de código entre texto. </span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE,eval=T,fig.cap="Exemplo do formato simplificado de um chunk code"}</span></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-chunkcode</span></span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"figuras/chunk_geral.png"</span>)</span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a>O chunk possui três partes:</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Abertura: indica o início do bloco e a linguagem utilizada ({r}).</span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Conteúdo: contém as instruções e operações que serão executadas.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a><span class="ss">3. </span>Fechamento: três acentos graves (```) indicam o final do bloco.</span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a>Além disso, o chunk pode receber argumentos que configuram o seu comportamento individual no documento quarto. Esses argumentos são passados como indicado na seguinte figura:</span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a><span class="in">```{r echo=FALSE,eval=T,fig.cap="Exemplo do formato simplificado de um chunk code"}</span></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="co">#| label: fig-chunkcode2</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>knitr<span class="sc">::</span><span class="fu">include_graphics</span>(<span class="st">"figuras/chunk_geral2.png"</span>)</span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a>Existem inúmeras opções que podem ser utilizadas para configurar o comportamento do chunk, como mostrado na tabela abaixo</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Opção <span class="pp">|</span> Função <span class="pp">|</span></span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a><span class="pp">|:---|:---|</span></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`echo`</span> <span class="pp">|</span> Define se o código será exibido no documento final. <span class="pp">|</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`eval`</span> <span class="pp">|</span> Define se o código será executado. <span class="pp">|</span></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`include`</span> <span class="pp">|</span> Define se o código e seus resultados serão incluídos no documento. <span class="pp">|</span></span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`warning`</span> <span class="pp">|</span> Controla a exibição de avisos (*warnings*). <span class="pp">|</span></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`message`</span> <span class="pp">|</span> Controla a exibição de mensagens. <span class="pp">|</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`error`</span> <span class="pp">|</span> Define se erros de execução serão apresentados no documento. <span class="pp">|</span></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`results`</span> <span class="pp">|</span> Controla como os resultados textuais serão apresentados. <span class="pp">|</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`fig.width`</span> <span class="pp">|</span> Define a largura dos gráficos, em polegadas. <span class="pp">|</span></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`fig.height`</span> <span class="pp">|</span> Define a altura dos gráficos, em polegadas. <span class="pp">|</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`fig.align`</span> <span class="pp">|</span> Define o alinhamento dos gráficos. <span class="pp">|</span></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> <span class="in">`cache`</span> <span class="pp">|</span> Permite armazenar resultados para evitar reexecutar códigos que não foram modificados. <span class="pp">|</span></span>
+<span id="cb1-96"><a href="#cb1-96" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-97"><a href="#cb1-97" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-98"><a href="#cb1-98" aria-hidden="true" tabindex="-1"></a><span class="fu"># Slides da aula</span></span>
+<span id="cb1-99"><a href="#cb1-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-100"><a href="#cb1-100" aria-hidden="true" tabindex="-1"></a>Aqui você encontra os slides apresentados em aula sobre esse tópico</span>
+<span id="cb1-101"><a href="#cb1-101" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-102"><a href="#cb1-102" aria-hidden="true" tabindex="-1"></a><span class="co">[</span><span class="ot">Tela cheia 📺</span><span class="co">](slides.qmd)</span></span>
+<span id="cb1-103"><a href="#cb1-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-104"><a href="#cb1-104" aria-hidden="true" tabindex="-1"></a><span class="in">```{=html}</span></span>
+<span id="cb1-105"><a href="#cb1-105" aria-hidden="true" tabindex="-1"></a><span class="in">&lt;iframe class="slide-deck" src="slides.html" height="420" width="750" style="border: 1px solid #2e3846;"&gt;&lt;/iframe&gt;</span></span>
+<span id="cb1-106"><a href="#cb1-106" aria-hidden="true" tabindex="-1"></a><span class="in">```</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
