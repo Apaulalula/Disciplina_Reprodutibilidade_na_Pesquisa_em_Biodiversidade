@@ -1,6 +1,6 @@
 ---
-title: "Em construção"
-subtitle: "..."
+title: "Avaliação de reprodutibilidade"
+subtitle: "Avaliação critica de artigos científicos"
 author: "Matheus Salles"
 format:
   html:
@@ -10,4 +10,148 @@ format:
       toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
 ---
 
-# 
+# **Atividade - Lista de verificação para revisão** 
+
+**Objetivo:** Fazer a revisão de um artigo já publicado, considerando os padrões discutidos ao longo da disciplina.
+
+**Instruções:** A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar um artigo da lista para revisar. Responda aos tópicos abaixo e faça os comentários justificando as respostas.
+
+**Formato de entrega:** atividade realizada durante a aula, sem necessidade de entrega.
+
+**Lista de Artigos:**
+
+|  |  |  |
+|----|----|----|
+| **titulo** | **revista** | **doi** |
+| Data integration improves species distribution forecasts under novel ocean conditions | Ecography | <https://doi.org/10.1002/ecog.07997> |
+| Wild bees and landcover: bee species' body size does not predict the scale of effect, but bee phenology predicts association with landcover type | Ecography | <https://doi.org/10.1002/ecog.07982> |
+| Seascape configuration determines spatial patterns of seabird-vectored nutrient enrichment to coral reefs | Ecography | <https://doi.org/10.1002/ecog.07863> |
+| Using spatial capture–recapture methods to estimate long-term spatiotemporal variation of a wide-ranging marine species | Ecography | <https://doi.org/10.1002/ecog.07878> |
+| Unraveling the role of environmental and anthropogenic drivers in shaping global patterns in mammal diversity | Ecography | <https://doi.org/10.1002/ecog.07674> |
+| The diel niche of brown bears: constraints on adaptive capacity in human-modified landscapes | Ecography | <https://doi.org/10.1002/ecog.07979> |
+| Generalised bumblebee–flower interactions demonstrate weak floral niche partitioning despite a high bee diversity | Ecography | <https://doi.org/10.1002/ecog.07956> |
+| Most mammals do not wander: few species escape continental endemism | Ecography | <https://doi.org/10.1002/ecog.07966> |
+| Extending Long-Term Avian Studies Alters Temporal and Climate-Driven Trend Conclusions | Ecology and Evolution | <https://doi.org/10.1002/ece3.71878> |
+| Extending Long-Term Avian Studies Alters Temporal and Climate-Driven Trend Conclusions | Ecology and Evolution | <https://doi.org/10.1002/ece3.71878> |
+| From Spurious Interference to Biological Signal: Repurposing Weather Radars to Monitor and Study the Amazonian Avifauna | Ecology and Evolution | <https://doi.org/10.1002/ece3.71860> |
+| The explanatory power of energetic fitness models across living amniotes and extinct non-avian dinosaurs | Evolution | <https://doi.org/10.1093/evolut/qpag117> |
+| Sexual and ecological drivers of plumage conspicuousness in hummingbirds | Evolution | <https://doi.org/10.1093/evolut/qpag142> |
+| Evolution of freshwater reproduction in a marine fish: Evidence from genetics and otolith microchemistry | Evolution | <https://doi.org/10.1093/evolut/qpag165> |
+| Genomic response to sex-separated gene pools | Evolution | <https://doi.org/10.1093/evolut/qpag156> |
+| Beyond medicine: A proof of concept for synergy analysis in ecotoxicology | Methods in Ecology and Evolution | <https://doi.org/10.1111/2041-210X.70115> |
+| Why shouldn't I collect more data? Reconciling disagreements between intuition and value of information analyses | Methods in Ecology and Evolution | <https://doi.org/10.1111/2041-210X.14391> |
+| An active ensemble classifier for detecting animal sequences from global camera trap data | Methods in Ecology and Evolution | <https://doi.org/10.1111/2041-210X.70144> |
+| Impact of sampling strategy on inference of community assembly processes in phylogenetic island biogeography | Methods in Ecology and Evolution | <https://doi.org/10.1111/2041-210X.70058> |
+| Separating biological signal from methodological noise in home range estimates | Methods in Ecology and Evolution | <https://doi.org/10.1111/2041-210X.70112> |
+
+\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+
+**Título:**
+
+**Autores:**
+
+**DOI do artigo/preprint:**
+
+**Material Suplementar:**
+
+**DOI dos dados e códigos:**
+
+**Data de preenchimento da lista de verificação:**
+
+1.   **Os dados e metadados devem ser arquivados e aderir aos princípios orientadores FAIR**:
+
+\[ \] Os dados estão em um repositório público
+
+\[ \] O repositório de dados possui um identificador persistente (por exemplo, um DOI)
+
+\[ \] Os dados são citados no manuscrito (na declaração de disponibilidade de dados ou similar, bem como nas Referências Bibliográficas)
+
+\[ \] O repositório de dados possui uma licença
+
+\[ \] Todos os arquivos de dados necessários estão presentes no repositório
+
+\[ \] Todos os dados brutos estão presentes Caso contrário:
+
+\[ \] Informações sobre onde os dados brutos estão localizados \[ \] Informações sobre como acessar os dados brutos
+
+\[ \] Informações suficientes sobre a versão do banco de dados / filtragem / processamento / critérios de exclusão
+
+\[ \] Todos os dados processados estão presentes
+
+\[ \] Os dados estão contidos em um formato interoperável
+
+\[ \] Dados tabulares – csv, tsv
+
+\[ \] Fotos –
+
+\[ \] Vídeos –
+
+\[ \] Metadados presentes (incluindo arquivo README)
+
+\[ \] Metadados adequados (incluindo arquivo README)
+
+**COMENTÁRIOS:**
+
+2.  **Os dados arquivados correspondem aos dados relatados no manuscrito**?
+
+\[ \] As variáveis utilizadas na análise estão presentes nos dados
+
+\[ \] A estrutura dos dados apresentados corresponde ao manuscrito (por exemplo, está no tamanho correto)
+
+**COMENTÁRIOS:**
+
+3.  **O código e os metadados devem ser arquivados e aderir aos princípios orientadores FAIR**:
+
+\[ \] O código possui um repositório
+
+\[ \] O repositório do código possui um DOI
+
+\[ \] O código é citado no manuscrito
+
+\[ \] O repositório do código possui uma licença
+
+\[ \] Os arquivos de código estão presentes no repositório
+
+\[ \] Metadados presentes (arquivo README e anotações no código)
+
+\[ \] Metadados adequados
+
+**COMENTÁRIOS:**
+
+4.   **Os dados e metadados usam uma linguagem acessível?**
+
+5.  **Os metadados são suficientes para entender os dados sem abri-los?**
+
+6.  **Os metadados descrevem os dados com precisão?**
+
+7.  **Existem licenças claras de uso de dados e software?**
+
+8.   **O código arquivado corresponde ao manuscrito:**
+
+\[ \] O código está presente para todas as análises do manuscrito, juntamente com o código usado para produzir figuras/tabelas, quando apropriado
+
+**COMENTÁRIOS:**
+
+9.  **O código é fácil de acompanhar / ler?**
+
+10. **O código está bem comentado / documentado?**
+
+11. **O código é funcionalizado com entradas / saídas claras?**
+
+12. **O código está hospedado em um repositório com controle de versão?**
+
+13. **Você confia que o código e os dados permanecerão FAIR a longo prazo?**
+
+14. **O código arquivado é executado com os dados arquivados:**
+
+\[ \] Executa sem erros
+
+**COMENTÁRIOS:**
+
+15. **Os resultados podem ser reproduzidos computacionalmente executando o código arquivado:**
+
+\[ \] Resultados numéricos (em tabela ou texto)
+
+\[ \] Figuras
+
+**COMENTÁRIOS:**

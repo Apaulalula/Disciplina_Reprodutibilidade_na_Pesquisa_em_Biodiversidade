@@ -16,7 +16,7 @@ website:
         
   sidebar:
     background: "#D9E3E4"
-    logo: "images/Logo sem fundo_RBR.avif"
+    logo: "images/logos.png"
     align: center
     style: "docked"
     search: true
@@ -32,17 +32,19 @@ website:
             href: about.qmd
           - text: "Cronograma do curso"
             href: index.qmd
-          - text: "Links para materiais úteis"
+          - text: "Literatura e recursos adicionais"
             href: links.qmd
       - section: "Aulas"
         contents: 
         - section: "Fundamentos da ciência aberta"
           contents:
-          - text: "Fundamentos da Ciência Aberta"
+          - text: "Reprodutibilidade em projetos e pesquisas científicas"
             href: aulas/01_ciencia_aberta/index.qmd
         - section: "Gestão de projetos e dados abertos"
           contents:
-          - text: "Gestão de Dados abertos"
+          - text: "Pré-registro de projetos"
+            href: aulas/1.1_pre_registro/index.qmd
+          - text: "Plano de gerenciamento de Dados"
             href: aulas/02_gestão_dados/index.qmd
         - section: "Organização de diretórios"
           contents:
@@ -62,7 +64,7 @@ website:
             href: aulas/glossario/index.qmd
         - section: "Comunicação Científica Aberta"
           contents: 
-          - text: "Avaliação crítica da reprodutibilidade de artigos científicos"
+          - text: "Reprodutibilidade de artigos científicos"
             href: aulas/08_Com_cientifica_aberta/index.qmd
         - section: "Documentos dinâmicos"
           contents: 

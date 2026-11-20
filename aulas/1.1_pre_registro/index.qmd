@@ -1,0 +1,97 @@
+---
+title: "Pré-registro de projetos"
+author: "Ana Paula Lula Costa"
+format:
+  html:
+    code-copy: true
+    code-tools:
+      source: true
+      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
+bibliography: references.bib
+---
+
+# **Atividade — Elaboração de um pré-registro**
+
+**Objetivo:** Elaborar o pré-registro de um projeto de pesquisa, com nível de detalhamento mínimo para a reprodução da pesquisa.
+
+**Instruções:** A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar o projeto de pesquisa de um de seus integrantes e utilizá-lo como base para elaborar o pré-registro. As respostas devem ser objetivas, mas suficientemente detalhadas para descrever os tópicos pertinentes. Caso alguma informação ainda não esteja definida, o grupo deverá propor uma solução viável e justificá-la.
+
+**Formato de entrega:** Google Docs (lembre-se de deixar aberto para comentários) via e-mail (matheusmaciel.salles\@gmail.com, anapaulalula\@gmail.com) ou, caso prefira registrar o projeto diretamente no site (osf, as.predicted), enviar o pdf do registro.
+
+## **1. Metadados do pré-registro**
+
+## **Título do pré-registro**
+
+Defina um título sucinto e informativo para o pré-registro, que retrate o foco principal da investigação. Uma denominação clara e precisa facilitará a compreensão imediata do propósito do seu estudo por terceiros.
+
+## **Descrição**
+
+Elabore uma síntese detalhada a respeito do projeto de pesquisa, explicitando seus propósitos centrais e os resultados almejados. Essa contextualização deve proporcionar aos leitores uma visão abrangente e clara sobre o desenvolvimento do estudo.
+
+## **Colaboradores**
+
+## **Instituições afiliadas**
+
+## **Licença**
+
+## **Áreas do conhecimento**
+
+Indique os domínios temáticos centrais aos quais a pesquisa está vinculada. Essa classificação otimiza a organização do trabalho e viabiliza que pares científicos localizem e citem sua contribuição com maior facilidade.
+
+## **2. Modelo de Pré-registro do AsPredicted.org**
+
+## **Coleta de dados (Opcional)**
+
+Informe se algum dado já foi obtido para esta investigação. Observação: a opção 'Sim' não é recomendada para este formulário de pré-registro.
+
+() Sim, os dados já foram coletados.
+
+() Não, nenhum dado foi coletado para este estudo até o momento.
+
+() Situação complexa. Parte dos dados foi coletada, mas a justificativa na Questão 8 esclarece por que este registro permanece válido.
+
+## **Hipótese (Opcional)**
+
+Apresente a questão central da investigação ou a hipótese principal a ser testada no estudo.
+
+## **Variável dependente (Opcional)**
+
+Descreva as variáveis dependentes principais, detalhando o procedimento de mensuração adotado.
+
+## **Análises (Opcional)**
+
+Detalhe rigorosamente os testes estatísticos e procedimentos analíticos aplicados para avaliar a hipótese ou questão principal.
+
+## **Outliers e Exclusões (Opcional)**
+
+Estabeleça o critério preciso para identificação de valores discrepantes e a regra formal para exclusão de observações.
+
+## **Tamanho Amostral (Opcional)**
+
+Indique o quantitativo de observações planejadas ou o parâmetro definidor da amostra. Não se faz necessária a justificativa teórica, apenas a precisão na definição numérica.
+
+## **Outros aspectos (Opcional)**
+
+Inclua informações suplementares pertinentes ao pré-registro (e.g., análises secundárias, variáveis exploratórias adicionais ou procedimentos não convencionais).
+
+## **Título do registro (Opcional)**
+
+Defina uma denominação para o pré-registro no AsPredicted. Recomendação: utilize o nome do projeto seguido pela caracterização do estudo.
+
+## **Tipo de Projeto (Opcional)**
+
+Para fins de documentação e controle, especifique a modalidade da pesquisa submetida.
+
+Atividade acadêmica ou trabalho de disciplina
+
+Estudo experimental
+
+Levantamento amostral (survey)
+
+Pesquisa observacional ou documental
+
+Outra abordagem (detalhar abaixo)
+
+## **Outra categoria (Opcional)**
+
+Caso tenha selecionado 'outra abordagem' no item anterior, descreva a natureza da pesquisa

@@ -526,12 +526,12 @@
   {
     "objectID": "links.html",
     "href": "links.html",
-    "title": "Links para materiais",
+    "title": "Literatura e recursos adicionais",
     "section": "",
-    "text": "Aqui vocês irão encontrar links para materiais abertos sobre ciência aberta, reprodutibilidade e outros assuntos relacionados.",
+    "text": "Aqui vocês irão encontrar materiais sobre ciência aberta, reprodutibilidade e outros assuntos relacionados.",
     "crumbs": [
       "Informações sobre o curso",
-      "Links para materiais úteis"
+      "Literatura e recursos adicionais"
     ]
   },
   {
@@ -539,10 +539,10 @@
     "href": "links.html#livros-e-materiais-didáticos",
     "title": "Links para materiais",
     "section": "Livros e materiais didáticos",
-    "text": "Livros e materiais didáticos",
+    "text": "Livros e materiais didáticos\n\n(Culina et al. 2020)",
     "crumbs": [
       "Informações sobre o curso",
-      "Links para materiais úteis"
+      "Literatura e materiais extras"
     ]
   },
   {
@@ -553,7 +553,7 @@
     "text": "Ferramental",
     "crumbs": [
       "Informações sobre o curso",
-      "Links para materiais úteis"
+      "Literatura e materiais extras"
     ]
   },
   {
@@ -561,7 +561,7 @@
     "href": "index.html",
     "title": "Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade",
     "section": "",
-    "text": "Dia\nData\nTurno\nTópico\nDescrição\nRoteiros e códigos\nSlides\nLeituras\n\n\n\n\n1\n30/11\nmanhã\nPalestra Rede Brasileira de Reprodutibilidade - Eduarda Centeno\nO que é Ciência Aberta;\nExperiências práticas em Ciência Aberta;\nAtuação da Rede Brasileira de Reprodutibilidade.\n💻\n\n📚\n\n\n\n\nTarde\nIntrodução a disciplina |\nReprodutibilidade nas pesquisas em ecologia e biodiversidade\nA crise de reprodutibilidade\nEstudo de caso: construção de uma dissertação e tese nos moldes de ciência aberta\n\n\n\n\n\n2\n01/12\nmanhã\nPlanejamento de Pesquisas reprodutíveis | Governança de dados e Tipos de Licença\nConstrução de pré-registro de projetos de pesquisa | tipos de licença | príncipios de governança em projetos científicos\n💻\n📽\n\n\n\n\n\ntarde\nPlano de gerenciamento de dados | Príncipios FAIR\nIntrodução aos príncipios FAIR e construção de um plano de gerenciamento de dados\n\n\n\n\n\n3\n02/12\nmanhã\nOrganização do diretório de trabalho e scripts | Introdução ao controle de versão\nEstrutura hierárquica de diretórios | Introdução ao Git como ferramenta para controle de versão\n💻\n📽\n📚\n\n\n\n\ntarde\nRepositórios locais e remotos | Integração com IDE (RStudio) | Práticas em controle de versão\nUtilizando o Git e o Github de maneira integrada através do RStudio | Ações básicas para versionar seu repositório\n💻\n\n\n\n\n4\n03/12\nmanhã\nLiterate programming | Repositórios permanentes\nUtilizando quarto para produção de relatórios científicos, manuscritos e sites | DOI e preservação digital\n💻\n📽\n📚\n\n\n\n\ntarde\nPreprints | Peer review aberto\nRepositórios de Preprints | Aspectos de análise para revisão de artigos com base na ciência aberta\n💻\n\n\n\n\n5\n04/12\nmanhã\nOrganizando o fluxo de trabalho | Finalização\nOrganização de fluxos de trabalho dos projetos e commit no Github\n💻\n📽\n📚\n\n\n\n\ntarde\nAvaliação final\nAvaliação cruzada dos projetos reprodutíveis construidos durante a disciplina",
+    "text": "Dia\nData\nTurno\nTópico\nDescrição\nRoteiros e códigos\nSlides\n\n\n\n\n1\n30/11\nmanhã\nPalestra Rede Brasileira de Reprodutibilidade - Eduarda Centeno\nO que é Ciência Aberta;\nExperiências práticas em Ciência Aberta;\nAtuação da Rede Brasileira de Reprodutibilidade.\n\n\n\n\n\n\nTarde\nIntrodução a disciplina |\nReprodutibilidade nas pesquisas em ecologia e biodiversidade\nA crise de reprodutibilidade\nEstudo de caso: construção de uma dissertação e tese nos moldes de ciência aberta\n\n\n\n\n2\n01/12\nmanhã\nPlanejamento de Pesquisas reprodutíveis\nConstrução de pré-registro de projetos de pesquisa |\nTipos de licença |\nPríncipios de governança em projetos científicos\n💻\n📽\n\n\n\n\ntarde\nGestão de dados abertos\nIntrodução aos príncipios FAIR e construção de um plano de gerenciamento de dados\n\n\n\n\n3\n02/12\nmanhã\nOrganização do diretório de trabalho e scripts |\nIntrodução ao controle de versão\nEstrutura hierárquica de diretórios |\nIntrodução ao Git como ferramenta para controle de versão\n💻\n📽\n\n\n\n\ntarde\nRepositórios locais e remotos |\nIntegração com IDE (RStudio) |\nPráticas em controle de versão\nUtilizando o Git e o Github de maneira integrada através do RStudio |\nAções básicas para versionar seu repositório\n💻\n\n\n\n4\n03/12\nmanhã\nLiterate programming |\nRepositórios permanentes\nUtilizando quarto para produção de relatórios científicos, manuscritos e sites |\nDOI e preservação digital\n💻\n📽\n\n\n\n\ntarde\nPreprints |\nPeer review aberto\nRepositórios de Preprints |\nAspectos de análise para revisão de artigos com base na ciência aberta\n\n\n\n\n5\n04/12\nmanhã\nOrganizando o fluxo de trabalho\nOrganização de fluxos de trabalho dos projetos e commit no Github\n\n\n\n\n\n\ntarde\nAvaliação final\nAvaliação cruzada dos projetos reprodutíveis construidos durante a disciplina",
     "crumbs": [
       "Informações sobre o curso",
       "Cronograma do curso"
@@ -572,7 +572,7 @@
     "href": "about.html",
     "title": "Sobre o curso",
     "section": "",
-    "text": "Olá!\nBem-vinda e bem-vindo a disciplina “Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade”. Nesta disciplina abordaremos conceitos relacionados ao movimento da Ciência Aberta, além das tendências e ferramentas necessárias para conduzir pesquisas reprodutíveis na área de ecologia e biodiversidade.\nEste site conterá o conteúdo e cronograma da nossa aula. Assim como os materiais e scripts que utilizaremos durante o curso.\nClique aqui para uma visão completa do cronograma",
+    "text": "Olá!\nBem-vinda e bem-vindo a disciplina “Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade”. Nesta disciplina abordaremos conceitos relacionados ao movimento da Ciência Aberta, além das tendências e ferramentas necessárias para conduzir pesquisas reprodutíveis na área de ecologia e biodiversidade.\nEste site contém o conteúdo e cronograma da nossa aula. Assim como os materiais e scripts que utilizaremos durante o curso.\nClique aqui para uma visão completa do cronograma",
     "crumbs": [
       "Informações sobre o curso",
       "Apresentação"
@@ -583,7 +583,7 @@
     "href": "about.html#ana-paula-lula-costa",
     "title": "Sobre o curso",
     "section": "Ana Paula Lula Costa",
-    "text": "Ana Paula Lula Costa\n\n\n\n\n\n\n\n\n\nBióloga pela Universidade Estadual de Maringá (UEM), mestre e doutora em Ecologia e Conservação pela Universidade Federal do Paraná (UFPR). Atualmente atua como pesquisadora de pós-doutorado na Fundação Oswaldo Cruz (PROCC/FIOCRUZ), no Programa de Computação Científica. Sua pesquisa investiga a influência das mudanças da paisagem, das trajetórias produtivas e do clima na dinâmica de trasnmissão de zoonoses entre animais silvestres, vetores e humanos. Ana Paula também atua como coordenadora de conteúdo no projeto Mulheres na Ecologia, que visa aumentar a visibilidade de Mulheres que trabalham com ecologia no Brasil, sendo também embaixadora da RBR em 2025-2026.",
+    "text": "Ana Paula Lula Costa\n\n\n\n\n\n\n\n\n\nBióloga pela Universidade Estadual de Maringá (UEM), mestre e doutora em Ecologia e Conservação pela Universidade Federal do Paraná (UFPR). Atualmente atua como pesquisadora de pós-doutorado na Fundação Oswaldo Cruz (PROCC/FIOCRUZ), no Programa de Computação Científica. Sua pesquisa investiga a influência das mudanças da paisagem, das trajetórias produtivas e do clima na dinâmica de transmissão de zoonoses entre animais silvestres, vetores e humanos. Ana Paula também atua como coordenadora de conteúdo no projeto Mulheres na Ecologia, que visa aumentar a visibilidade de Mulheres que trabalham com ecologia no Brasil, sendo também embaixadora da RBR em 2025-2026.",
     "crumbs": [
       "Informações sobre o curso",
       "Apresentação"
@@ -1020,5 +1020,338 @@
     "title": "Ferramentas de ciência aberta",
     "section": "Como resolver?",
     "text": "Como resolver?"
+  },
+  {
+    "objectID": "links.html#artigos",
+    "href": "links.html#artigos",
+    "title": "Literatura e recursos adicionais",
+    "section": "Artigos",
+    "text": "Artigos\nBaker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604). doi: 10.1038/533452a\nBertram, M.G., Sundin, J., Roche, D.G., Sánchez-Tójar, A., Thoré, E.S.J. & Brodin, T. (2023). Open science. Current Biology, 33, R792–R797. https://doi.org/10.1016/j.cub.2023.05.036\nBezjak, S., Clyburne-Sherin, A., Conzett, P., et al. (2018). Open Science Training Handbook. https://doi.org/10.5281/zenodo.1212496\nBlischak, J.D., Davenport, E.R. & Wilson, G. (2016). A Quick Introduction to Version Control with Git and GitHub. PLOS Computational Biology, 12, e1004668. https://doi.org/10.1371/journal.pcbi.1004668\nBrodeur, A., Dreber, A., Hoces De La Guardia, F., & Miguel, E. (2023). Replication games: How to make reproducibility research more systematic. Nature, 621(7980), 684–686. https://doi.org/10.1038/d41586-02302997-5 \nCamerer, C. F., et al. (2018). Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. Nature Human Behaviour, 2(9), 637–644. doi: 10.1038/s41562-018-0399-z\nCarneiro, C. F. D., et al. (2025). A Rede Brasileira de Reprodutibilidade. SciELO Preprints. doi: 10.1590/SciELOPreprints.12671\nIoannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLOS Medicine, 2(8), e124. doi: 10.1371/journal.pmed.0020124\nKlebel, T., Traag, V., Grypari, I., Stoy, L., & Ross-Hellauer, T. (2025). The academic impact of Open Science: A scoping review. Royal Society Open Science, 12(3), 241248. https://doi.org/10.1098/rsos.241248\nNational Academies of Sciences, Engineering, and Medicine. (2019). Reproducibility and Replicability in Science. National Academies Press, Washington, D.C. https://doi.org/10.17226/25303\nNosek, B. A., & Errington, T. M. (2020). What is replication?. PLoS biology, 18(3), e3000691.\nGoodman, S. N., Fanelli, D., & Ioannidis, J. P. (2016). What does research reproducibility mean?. Science translational medicine, 8(341), 341ps12-341ps12. \nOpen Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716. doi: 10.1126/science.aac4716\nPick, J. L., Allen, B. J., Bachelot, B., Bairos-Novak, K. R., Brand, J. A., Class, B., … Ivimey-Cook, E. R. (2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology. Peer Community Journal, 6, e20. https://doi.org/10.24072/pcjournal.687 \nPowers, S. M., & Hampton, S. E. (2019). Open science, reproducibility, and transparency in ecology. Ecological applications, 29(1), e01822.\nSandve, G.K., Nekrutenko, A., Taylor, J. & Hovig, E. (2013). Ten Simple Rules for Reproducible Computational Research. PLOS Computational Biology, 9, e1003285. https://doi.org/10.1371/journal.pcbi.1003285\nSilveira, L. D., Ribeiro, N. C., Melero, R., Mora-Campos, A., Piraquive-Piraquive, D. F., Uribe-Tirado, A., … Fachin, J. (2023). Taxonomia da Ciência Aberta: Revisada e ampliada. Encontros Bibli: revista eletrônica de biblioteconomia e ciência da informação, 28, 1–22. https://doi.org/10.5007/1518-2924.2023.e91712 \nThe Carpentries Lessons. (2025). The Carpentries. Available at: https://carpentries.org/lessons/. Last accessed 20 October 2025.\nWilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Sci Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18\nYoungflesh, C. (2018). MCMCvis: Tools to Visualize, Manipulate, and Summarize MCMC Output. Journal of Open Source Software, 3, 640. https://doi.org/10.21105/joss.00640",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Literatura e recursos adicionais"
+    ]
+  },
+  {
+    "objectID": "links.html#livros-e-guias",
+    "href": "links.html#livros-e-guias",
+    "title": "Links para materiais",
+    "section": "Livros e guias",
+    "text": "Livros e guias\n\nFAPESP. (n.d.). Open Science @ FAPESP. [Online]. Disponível em: https://fapesp.br/openscience/\nUNESCO. (2022). Recomendação da UNESCO sobre Ciência Aberta. [Online]. doi: 10.54677/XFFX3334\n\n\n\nRedes de ciência aberta e reprodutibilidade:\n\nhttps://www.reprodutibilidade.org/recursos\nhttps://rkofreitag.github.io/aberta.html\nhttps://www.ukrn.org/\nhttps://sortee.org/\nhttps://reproducibility.global/\nhttps://osf.io/\n\nRepositório de dados e códigos:\n\nhttps://depositadados.ibict.br/\nhttps://arca.fiocruz.br/500\nhttps://lattesdata.cnpq.br/\nhttps://dataverse.org/\nhttps://www.sibbr.gov.br/\nhttps://zenodo.org/\nhttps://www.treebase.org/treebase-web/home.html\n\nOutras ferramentas:\n\nhttps://happygitwithr.com/\nhttps://campusvirtual.fiocruz.br/portal/?q=formacao-modular/ciencia-aberta\nhttps://osf.io/vkhbt/files/wmakh\nhttps://www.makeareadme.com/\nhttps://www.fatiando.org/",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Literatura e materiais extras"
+    ]
+  },
+  {
+    "objectID": "links.html#guias-e-recursos-adicionais",
+    "href": "links.html#guias-e-recursos-adicionais",
+    "title": "Literatura e recursos adicionais",
+    "section": "Guias e recursos adicionais",
+    "text": "Guias e recursos adicionais\n\nFAPESP. (n.d.). Open Science @ FAPESP. [Online]. Disponível em: https://fapesp.br/openscience/\nUNESCO. (2022). Recomendação da UNESCO sobre Ciência Aberta. [Online]. doi: 10.54677/XFFX3334\n\n\n\nRedes de ciência aberta e reprodutibilidade:\n\nhttps://www.reprodutibilidade.org/recursos\nhttps://rkofreitag.github.io/aberta.html\nhttps://www.ukrn.org/\nhttps://sortee.org/\nhttps://reproducibility.global/\nhttps://osf.io/\n\nRepositório de dados e códigos:\n\nhttps://depositadados.ibict.br/\nhttps://arca.fiocruz.br/500\nhttps://lattesdata.cnpq.br/\nhttps://dataverse.org/\nhttps://www.sibbr.gov.br/\nhttps://zenodo.org/\nhttps://www.treebase.org/treebase-web/home.html\n\nOutras ferramentas:\n\nhttps://happygitwithr.com/\nhttps://campusvirtual.fiocruz.br/portal/?q=formacao-modular/ciencia-aberta\nhttps://osf.io/vkhbt/files/wmakh\nhttps://www.makeareadme.com/\nhttps://www.fatiando.org/",
+    "crumbs": [
+      "Informações sobre o curso",
+      "Literatura e recursos adicionais"
+    ]
+  },
+  {
+    "objectID": "aulas/08_Com_cientifica_aberta/index.html",
+    "href": "aulas/08_Com_cientifica_aberta/index.html",
+    "title": "Avaliação de reprodutibilidade",
+    "section": "",
+    "text": "Atividade - Lista de verificação para revisão\nObjetivo: Fazer a revisão de um artigo já publicado, considerando os padrões discutidos ao longo da disciplina.\nInstruções: A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar um artigo da lista para revisar. Responda aos tópicos abaixo e faça os comentários justificando as respostas.\nFormato de entrega: atividade realizada durante a aula, sem necessidade de entrega.\nLista de Artigos:\n\n\n\ntitulo\nrevista\ndoi\n\n\nData integration improves species distribution forecasts under novel ocean conditions\nEcography\nhttps://doi.org/10.1002/ecog.07997\n\n\nWild bees and landcover: bee species’ body size does not predict the scale of effect, but bee phenology predicts association with landcover type\nEcography\nhttps://doi.org/10.1002/ecog.07982\n\n\nSeascape configuration determines spatial patterns of seabird-vectored nutrient enrichment to coral reefs\nEcography\nhttps://doi.org/10.1002/ecog.07863\n\n\nUsing spatial capture–recapture methods to estimate long-term spatiotemporal variation of a wide-ranging marine species\nEcography\nhttps://doi.org/10.1002/ecog.07878\n\n\nUnraveling the role of environmental and anthropogenic drivers in shaping global patterns in mammal diversity\nEcography\nhttps://doi.org/10.1002/ecog.07674\n\n\nThe diel niche of brown bears: constraints on adaptive capacity in human-modified landscapes\nEcography\nhttps://doi.org/10.1002/ecog.07979\n\n\nGeneralised bumblebee–flower interactions demonstrate weak floral niche partitioning despite a high bee diversity\nEcography\nhttps://doi.org/10.1002/ecog.07956\n\n\nMost mammals do not wander: few species escape continental endemism\nEcography\nhttps://doi.org/10.1002/ecog.07966\n\n\nExtending Long-Term Avian Studies Alters Temporal and Climate-Driven Trend Conclusions\nEcology and Evolution\nhttps://doi.org/10.1002/ece3.71878\n\n\nExtending Long-Term Avian Studies Alters Temporal and Climate-Driven Trend Conclusions\nEcology and Evolution\nhttps://doi.org/10.1002/ece3.71878\n\n\nFrom Spurious Interference to Biological Signal: Repurposing Weather Radars to Monitor and Study the Amazonian Avifauna\nEcology and Evolution\nhttps://doi.org/10.1002/ece3.71860\n\n\nThe explanatory power of energetic fitness models across living amniotes and extinct non-avian dinosaurs\nEvolution\nhttps://doi.org/10.1093/evolut/qpag117\n\n\nSexual and ecological drivers of plumage conspicuousness in hummingbirds\nEvolution\nhttps://doi.org/10.1093/evolut/qpag142\n\n\nEvolution of freshwater reproduction in a marine fish: Evidence from genetics and otolith microchemistry\nEvolution\nhttps://doi.org/10.1093/evolut/qpag165\n\n\nGenomic response to sex-separated gene pools\nEvolution\nhttps://doi.org/10.1093/evolut/qpag156\n\n\nBeyond medicine: A proof of concept for synergy analysis in ecotoxicology\nMethods in Ecology and Evolution\nhttps://doi.org/10.1111/2041-210X.70115\n\n\nWhy shouldn’t I collect more data? Reconciling disagreements between intuition and value of information analyses\nMethods in Ecology and Evolution\nhttps://doi.org/10.1111/2041-210X.14391\n\n\nAn active ensemble classifier for detecting animal sequences from global camera trap data\nMethods in Ecology and Evolution\nhttps://doi.org/10.1111/2041-210X.70144\n\n\nImpact of sampling strategy on inference of community assembly processes in phylogenetic island biogeography\nMethods in Ecology and Evolution\nhttps://doi.org/10.1111/2041-210X.70058\n\n\nSeparating biological signal from methodological noise in home range estimates\nMethods in Ecology and Evolution\nhttps://doi.org/10.1111/2041-210X.70112\n\n\n\n________________________________________________________________________________________________________________\nTítulo:\nAutores:\nDOI do artigo/preprint:\nMaterial Suplementar:\nDOI dos dados e códigos:\nData de preenchimento da lista de verificação:\n\nOs dados e metadados devem ser arquivados e aderir aos princípios orientadores FAIR:\n\n[ ] Os dados estão em um repositório público\n[ ] O repositório de dados possui um identificador persistente (por exemplo, um DOI)\n[ ] Os dados são citados no manuscrito (na declaração de disponibilidade de dados ou similar, bem como nas Referências Bibliográficas)\n[ ] O repositório de dados possui uma licença\n[ ] Todos os arquivos de dados necessários estão presentes no repositório\n[ ] Todos os dados brutos estão presentes Caso contrário:\n[ ] Informações sobre onde os dados brutos estão localizados [ ] Informações sobre como acessar os dados brutos\n[ ] Informações suficientes sobre a versão do banco de dados / filtragem / processamento / critérios de exclusão\n[ ] Todos os dados processados estão presentes\n[ ] Os dados estão contidos em um formato interoperável\n[ ] Dados tabulares – csv, tsv\n[ ] Fotos –\n[ ] Vídeos –\n[ ] Metadados presentes (incluindo arquivo README)\n[ ] Metadados adequados (incluindo arquivo README)\nCOMENTÁRIOS:\n\nOs dados arquivados correspondem aos dados relatados no manuscrito?\n\n[ ] As variáveis utilizadas na análise estão presentes nos dados\n[ ] A estrutura dos dados apresentados corresponde ao manuscrito (por exemplo, está no tamanho correto)\nCOMENTÁRIOS:\n\nO código e os metadados devem ser arquivados e aderir aos princípios orientadores FAIR:\n\n[ ] O código possui um repositório\n[ ] O repositório do código possui um DOI\n[ ] O código é citado no manuscrito\n[ ] O repositório do código possui uma licença\n[ ] Os arquivos de código estão presentes no repositório\n[ ] Metadados presentes (arquivo README e anotações no código)\n[ ] Metadados adequados\nCOMENTÁRIOS:\n\nOs dados e metadados usam uma linguagem acessível?\nOs metadados são suficientes para entender os dados sem abri-los?\nOs metadados descrevem os dados com precisão?\nExistem licenças claras de uso de dados e software?\nO código arquivado corresponde ao manuscrito:\n\n[ ] O código está presente para todas as análises do manuscrito, juntamente com o código usado para produzir figuras/tabelas, quando apropriado\nCOMENTÁRIOS:\n\nO código é fácil de acompanhar / ler?\nO código está bem comentado / documentado?\nO código é funcionalizado com entradas / saídas claras?\nO código está hospedado em um repositório com controle de versão?\nVocê confia que o código e os dados permanecerão FAIR a longo prazo?\nO código arquivado é executado com os dados arquivados:\n\n[ ] Executa sem erros\nCOMENTÁRIOS:\n\nOs resultados podem ser reproduzidos computacionalmente executando o código arquivado:\n\n[ ] Resultados numéricos (em tabela ou texto)\n[ ] Figuras\nCOMENTÁRIOS:",
+    "crumbs": [
+      "Aulas",
+      "Comunicação Científica Aberta",
+      "Reprodutibilidade de artigos científicos"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html",
+    "href": "aulas/02_gestão_dados/index.html",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Objetivo: Elaborar um Plano de Gerenciamento de Dados para um projeto de pesquisa, considerando boas práticas de organização, documentação, armazenamento, preservação e compartilhamento de dados científicos.\nInstruções: A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar o projeto de pesquisa de um de seus integrantes e utilizá-lo como base para elaborar um PGD. As respostas devem ser objetivas, mas suficientemente detalhadas para explicar como os dados serão gerenciados. Caso alguma informação ainda não esteja definida, o grupo deverá propor uma solução viável e justificá-la.\nFormato de entrega: Google Docs (lembre-se de deixar aberto para comentários) via email (matheusmaciel.salles@gmail.com), com até 4 páginas.\n\n\n\nTítulo do projeto:\nIntegrantes do grupo:\nBreve descrição do projeto, incluindo seus objetivos e principais procedimentos metodológicos.\n\n\n\n\n\nQuais tipos de dados serão coletados, produzidos ou reutilizados durante a pesquisa?\nQuais serão os principais formatos dos arquivos (planilhas, sequências moleculares, imagens, vídeos, scripts etc.)?\nQual é o volume aproximado de dados esperado?\n\n\n\n\n\nSelecione de duas a três variáveis utilizadas no projeto e descreva o que cada uma representa, como foi ou será obtida e, quando aplicável, sua unidade de medida.\nOrganize essas informações em uma pequena tabela, como no exemplo abaixo.\n\n\n\n\n\n\n\n\n\n\nVariável\nDescrição\nComo é obtida\nUnidade\n\n\nComprimento corporal\nComprimento rostro-cloacal dos indivíduos\nMedição com paquímetro\nmm\n\n\nTemperatura\nTemperatura ambiental no momento da coleta\nMedição com termômetro\n°C\n\n\nLocalidade\nLocal onde o indivíduo foi coletado\nRegistro de campo\nNome da localidade\n\n\n\n\n\n\n\nOnde os dados serão armazenados durante a execução do projeto?\nComo serão realizados os backups e o controle de versões?\nQuem terá acesso aos dados e quem será responsável por sua organização e manutenção?\n\n\n\n\n\nExistem informações sensíveis, confidenciais ou protegidas por direitos de terceiros?\nHá alguma restrição ética ou legal ao compartilhamento dos dados?\nSe houver restrições, quais medidas serão adotadas para garantir sua proteção e, quando possível, permitir sua utilização responsável?\n\nCaso não existam restrições, isso deverá ser explicitado.\n\n\n\n\nQuais dados e códigos serão disponibilizados publicamente?\nEm quais repositórios serão depositados? Justifique as escolhas.\nQuando serão compartilhados (durante o projeto, após sua conclusão, após a publicação etc.)?\nQuais licenças ou condições de reutilização serão adotadas?\n\n\n\n\n\nQuais dados, códigos e documentos deverão ser preservados após a conclusão do projeto?\nOnde e por quanto tempo deverão ser mantidos?\nQuais medidas serão adotadas para garantir sua acessibilidade e utilização futura?\n\n\n\n\nO PGD deverá apresentar decisões compatíveis com as características e os recursos disponíveis para o projeto escolhido. Não é necessário que todos os procedimentos já estejam implementados, mas as estratégias propostas precisam ser realistas e justificadas. O plano deve permitir que outra pessoa compreenda quais dados serão produzidos, como serão gerenciados e em quais condições poderão ser preservados e reutilizados.\n\n\n\n\nFAPESP. Gestão de Dados.https://fapesp.br/gestaodedados\nDMPTool. Data Management General Guidance. https://www.dmptool.org/general_guidance\nPick et al. (2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology.https://doi.org/10.24072/pcjournal.687",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#identificação-e-descrição-do-projeto",
+    "href": "aulas/02_gestão_dados/index.html#identificação-e-descrição-do-projeto",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Título do projeto:\nIntegrantes do grupo:\nBreve descrição do projeto, incluindo seus objetivos e principais procedimentos metodológicos.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#descrição-dos-dados-e-códigos",
+    "href": "aulas/02_gestão_dados/index.html#descrição-dos-dados-e-códigos",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Quais tipos de dados serão coletados, produzidos ou reutilizados durante a pesquisa?\nQuais serão os principais formatos dos arquivos (planilhas, sequências moleculares, imagens, vídeos, scripts etc.)?\nQual é o volume aproximado de dados esperado?",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#organização-e-documentação-dos-dados",
+    "href": "aulas/02_gestão_dados/index.html#organização-e-documentação-dos-dados",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Selecione de duas a três variáveis utilizadas no projeto e descreva o que cada uma representa, como foi ou será obtida e, quando aplicável, sua unidade de medida.\nOrganize essas informações em uma pequena tabela, como no exemplo abaixo.\n\n\n\n\n\n\n\n\n\n\nVariável\nDescrição\nComo é obtida\nUnidade\n\n\nComprimento corporal\nComprimento rostro-cloacal dos indivíduos\nMedição com paquímetro\nmm\n\n\nTemperatura\nTemperatura ambiental no momento da coleta\nMedição com termômetro\n°C\n\n\nLocalidade\nLocal onde o indivíduo foi coletado\nRegistro de campo\nNome da localidade",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#armazenamento-e-segurança",
+    "href": "aulas/02_gestão_dados/index.html#armazenamento-e-segurança",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Onde os dados serão armazenados durante a execução do projeto?\nComo serão realizados os backups e o controle de versões?\nQuem terá acesso aos dados e quem será responsável por sua organização e manutenção?",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#aspectos-éticos-e-legais",
+    "href": "aulas/02_gestão_dados/index.html#aspectos-éticos-e-legais",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Existem informações sensíveis, confidenciais ou protegidas por direitos de terceiros?\nHá alguma restrição ética ou legal ao compartilhamento dos dados?\nSe houver restrições, quais medidas serão adotadas para garantir sua proteção e, quando possível, permitir sua utilização responsável?\n\nCaso não existam restrições, isso deverá ser explicitado.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#compartilhamento-e-reutilização-dos-dados-e-códigos",
+    "href": "aulas/02_gestão_dados/index.html#compartilhamento-e-reutilização-dos-dados-e-códigos",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Quais dados e códigos serão disponibilizados publicamente?\nEm quais repositórios serão depositados? Justifique as escolhas.\nQuando serão compartilhados (durante o projeto, após sua conclusão, após a publicação etc.)?\nQuais licenças ou condições de reutilização serão adotadas?",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#preservação-dos-dados-e-códigos",
+    "href": "aulas/02_gestão_dados/index.html#preservação-dos-dados-e-códigos",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "Quais dados, códigos e documentos deverão ser preservados após a conclusão do projeto?\nOnde e por quanto tempo deverão ser mantidos?\nQuais medidas serão adotadas para garantir sua acessibilidade e utilização futura?",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#orientações-finais",
+    "href": "aulas/02_gestão_dados/index.html#orientações-finais",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "O PGD deverá apresentar decisões compatíveis com as características e os recursos disponíveis para o projeto escolhido. Não é necessário que todos os procedimentos já estejam implementados, mas as estratégias propostas precisam ser realistas e justificadas. O plano deve permitir que outra pessoa compreenda quais dados serão produzidos, como serão gerenciados e em quais condições poderão ser preservados e reutilizados.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/02_gestão_dados/index.html#referências-para-consulta",
+    "href": "aulas/02_gestão_dados/index.html#referências-para-consulta",
+    "title": "Plano de Gerenciamento de Dados (PGD)",
+    "section": "",
+    "text": "FAPESP. Gestão de Dados.https://fapesp.br/gestaodedados\nDMPTool. Data Management General Guidance. https://www.dmptool.org/general_guidance\nPick et al. (2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology.https://doi.org/10.24072/pcjournal.687",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Plano de gerenciamento de Dados"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html",
+    "href": "aulas/1.1_pre_registro/index.html",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Objetivo: Elaborar o pré-registro de um projeto de pesquisa, com nível de detalhamento mínimo para a reprodução da pesquisa.\nInstruções: A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar o projeto de pesquisa de um de seus integrantes e utilizá-lo como base para elaborar o pré-registro. As respostas devem ser objetivas, mas suficientemente detalhadas para descrever os tópicos pertinentes. Caso alguma informação ainda não esteja definida, o grupo deverá propor uma solução viável e justificá-la.\nFormato de entrega: Google Docs (lembre-se de deixar aberto para comentários) via e-mail (matheusmaciel.salles@gmail.com, anapaulalula@gmail.com) ou, caso prefira registrar o projeto diretamente no site (osf, as.predicted), enviar o pdf do registro.\n\n\n\n\n\nDefina um título sucinto e informativo para o pré-registro, que retrate o foco principal da investigação. Uma denominação clara e precisa facilitará a compreensão imediata do propósito do seu estudo por terceiros.\n\n\n\nElabore uma síntese detalhada a respeito do projeto de pesquisa, explicitando seus propósitos centrais e os resultados almejados. Essa contextualização deve proporcionar aos leitores uma visão abrangente e clara sobre o desenvolvimento do estudo.\n\n\n\n\n\n\n\n\n\n\n\n\nIndique os domínios temáticos centrais aos quais a pesquisa está vinculada. Essa classificação otimiza a organização do trabalho e viabiliza que pares científicos localizem e citem sua contribuição com maior facilidade.\n\n\n\n\n\n\nInforme se algum dado já foi obtido para esta investigação. Observação: a opção ‘Sim’ não é recomendada para este formulário de pré-registro.\n() Sim, os dados já foram coletados.\n() Não, nenhum dado foi coletado para este estudo até o momento.\n() Situação complexa. Parte dos dados foi coletada, mas a justificativa na Questão 8 esclarece por que este registro permanece válido.\n\n\n\nApresente a questão central da investigação ou a hipótese principal a ser testada no estudo.\n\n\n\nDescreva as variáveis dependentes principais, detalhando o procedimento de mensuração adotado.\n\n\n\nDetalhe rigorosamente os testes estatísticos e procedimentos analíticos aplicados para avaliar a hipótese ou questão principal.\n\n\n\nEstabeleça o critério preciso para identificação de valores discrepantes e a regra formal para exclusão de observações.\n\n\n\nIndique o quantitativo de observações planejadas ou o parâmetro definidor da amostra. Não se faz necessária a justificativa teórica, apenas a precisão na definição numérica.\n\n\n\nInclua informações suplementares pertinentes ao pré-registro (e.g., análises secundárias, variáveis exploratórias adicionais ou procedimentos não convencionais).\n\n\n\nDefina uma denominação para o pré-registro no AsPredicted. Recomendação: utilize o nome do projeto seguido pela caracterização do estudo.\n\n\n\nPara fins de documentação e controle, especifique a modalidade da pesquisa submetida.\nAtividade acadêmica ou trabalho de disciplina\nEstudo experimental\nLevantamento amostral (survey)\nPesquisa observacional ou documental\nOutra abordagem (detalhar abaixo)\n\n\n\nCaso tenha selecionado ‘outra abordagem’ no item anterior, descreva a natureza da pesquisa",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#título-do-pré-registro",
+    "href": "aulas/1.1_pre_registro/index.html#título-do-pré-registro",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Defina um título sucinto e informativo para o pré-registro, que retrate o foco principal da investigação. Uma denominação clara e precisa facilitará a compreensão imediata do propósito do seu estudo por terceiros.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#descrição",
+    "href": "aulas/1.1_pre_registro/index.html#descrição",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Elabore uma síntese detalhada a respeito do projeto de pesquisa, explicitando seus propósitos centrais e os resultados almejados. Essa contextualização deve proporcionar aos leitores uma visão abrangente e clara sobre o desenvolvimento do estudo.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#áreas-do-conhecimento",
+    "href": "aulas/1.1_pre_registro/index.html#áreas-do-conhecimento",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Indique os domínios temáticos centrais aos quais a pesquisa está vinculada. Essa classificação otimiza a organização do trabalho e viabiliza que pares científicos localizem e citem sua contribuição com maior facilidade.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#coleta-de-dados-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#coleta-de-dados-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Informe se algum dado já foi obtido para esta investigação. Observação: a opção ‘Sim’ não é recomendada para este formulário de pré-registro.\n() Sim, os dados já foram coletados.\n() Não, nenhum dado foi coletado para este estudo até o momento.\n() Situação complexa. Parte dos dados foi coletada, mas a justificativa na Questão 8 esclarece por que este registro permanece válido.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#hipótese-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#hipótese-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Apresente a questão central da investigação ou a hipótese principal a ser testada no estudo.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#variável-dependente-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#variável-dependente-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Descreva as variáveis dependentes principais, detalhando o procedimento de mensuração adotado.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#análises-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#análises-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Detalhe rigorosamente os testes estatísticos e procedimentos analíticos aplicados para avaliar a hipótese ou questão principal.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#outliers-e-exclusões-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#outliers-e-exclusões-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Estabeleça o critério preciso para identificação de valores discrepantes e a regra formal para exclusão de observações.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#tamanho-amostral-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#tamanho-amostral-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Indique o quantitativo de observações planejadas ou o parâmetro definidor da amostra. Não se faz necessária a justificativa teórica, apenas a precisão na definição numérica.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#outros-aspectos-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#outros-aspectos-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Inclua informações suplementares pertinentes ao pré-registro (e.g., análises secundárias, variáveis exploratórias adicionais ou procedimentos não convencionais).",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#título-do-registro-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#título-do-registro-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Defina uma denominação para o pré-registro no AsPredicted. Recomendação: utilize o nome do projeto seguido pela caracterização do estudo.",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#tipo-de-projeto-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#tipo-de-projeto-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Para fins de documentação e controle, especifique a modalidade da pesquisa submetida.\nAtividade acadêmica ou trabalho de disciplina\nEstudo experimental\nLevantamento amostral (survey)\nPesquisa observacional ou documental\nOutra abordagem (detalhar abaixo)",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
+  },
+  {
+    "objectID": "aulas/1.1_pre_registro/index.html#outra-categoria-opcional",
+    "href": "aulas/1.1_pre_registro/index.html#outra-categoria-opcional",
+    "title": "Pré-registro de projetos",
+    "section": "",
+    "text": "Caso tenha selecionado ‘outra abordagem’ no item anterior, descreva a natureza da pesquisa",
+    "crumbs": [
+      "Aulas",
+      "Gestão de projetos e dados abertos",
+      "Pré-registro de projetos"
+    ]
   }
 ]

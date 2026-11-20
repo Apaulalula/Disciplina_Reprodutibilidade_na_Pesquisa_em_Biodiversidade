@@ -2,14 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="pt-BR" xml:lang="pt-BR"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.9.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Matheus Salles">
 
-<title>Em construção – Reprodutibilidade computacional e principios da ciência aberta</title>
+<title>Plano de Gerenciamento de Dados (PGD) – Reprodutibilidade computacional e principios da ciência aberta</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -72,14 +75,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-72412ffdb1e108b6e678acee5cb1fffa.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-343ca00e028411d8a36049db19630603.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-ff4589304b9f6383147e11e2e93ab800.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-23d5cb253de1a4ce43db4ce0f055899a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -282,7 +285,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Aulas</li><li class="breadcrumb-item"><a href="../../aulas/02_gestão_dados/index.html">Gestão de projetos e dados abertos</a></li><li class="breadcrumb-item"><a href="../../aulas/02_gestão_dados/index.html">Gestão de Dados abertos</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Aulas</li><li class="breadcrumb-item"><a href="../../aulas/1.1_pre_registro/index.html">Gestão de projetos e dados abertos</a></li><li class="breadcrumb-item"><a href="../../aulas/02_gestão_dados/index.html">Plano de gerenciamento de Dados</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Procurar" onclick="window.quartoOpenSearch();">
@@ -297,7 +300,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../images/Logo sem fundo_RBR.avif" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../../images/logos.png" alt="" class="sidebar-logo light-content py-0 d-lg-inline d-none">
+      <img src="../../images/logos.png" alt="" class="sidebar-logo dark-content py-0 d-lg-inline d-none">
       </a>
       <div class="sidebar-tools-main">
     <a href="https://github.com/Apaulalula/Disciplina_Reprodutibilidade_na_Pesquisa_em_Biodiversidade" title="Repositório do curso" class="quarto-navigation-tool px-1" aria-label="Repositório do curso"><i class="bi bi-github"></i></a>
@@ -335,7 +339,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../links.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Links para materiais úteis</span></a>
+ <span class="menu-text">Literatura e recursos adicionais</span></a>
   </div>
 </li>
       </ul>
@@ -361,7 +365,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../aulas/01_ciencia_aberta/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fundamentos da Ciência Aberta</span></a>
+ <span class="menu-text">Reprodutibilidade em projetos e pesquisas científicas</span></a>
   </div>
 </li>
       </ul>
@@ -377,8 +381,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../aulas/1.1_pre_registro/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pré-registro de projetos</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../aulas/02_gestão_dados/index.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Gestão de Dados abertos</span></a>
+ <span class="menu-text">Plano de gerenciamento de Dados</span></a>
   </div>
 </li>
       </ul>
@@ -453,7 +463,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../aulas/08_Com_cientifica_aberta/index.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Avaliação crítica da reprodutibilidade de artigos científicos</span></a>
+ <span class="menu-text">Reprodutibilidade de artigos científicos</span></a>
   </div>
 </li>
       </ul>
@@ -482,16 +492,33 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Nesta página</h2>
+   
+  <ul>
+  <li><a href="#atividade-elaboração-de-um-plano-de-gerenciamento-de-dados-pgd" id="toc-atividade-elaboração-de-um-plano-de-gerenciamento-de-dados-pgd" class="nav-link active" data-scroll-target="#atividade-elaboração-de-um-plano-de-gerenciamento-de-dados-pgd"><strong>Atividade — Elaboração de um Plano de Gerenciamento de Dados (PGD)</strong></a>
+  <ul class="collapse">
+  <li><a href="#identificação-e-descrição-do-projeto" id="toc-identificação-e-descrição-do-projeto" class="nav-link" data-scroll-target="#identificação-e-descrição-do-projeto"><strong>1. Identificação e descrição do projeto</strong></a></li>
+  <li><a href="#descrição-dos-dados-e-códigos" id="toc-descrição-dos-dados-e-códigos" class="nav-link" data-scroll-target="#descrição-dos-dados-e-códigos"><strong>2. Descrição dos dados e códigos</strong></a></li>
+  <li><a href="#organização-e-documentação-dos-dados" id="toc-organização-e-documentação-dos-dados" class="nav-link" data-scroll-target="#organização-e-documentação-dos-dados"><strong>3. Organização e documentação dos dados</strong></a></li>
+  <li><a href="#armazenamento-e-segurança" id="toc-armazenamento-e-segurança" class="nav-link" data-scroll-target="#armazenamento-e-segurança"><strong>4. Armazenamento e segurança</strong></a></li>
+  <li><a href="#aspectos-éticos-e-legais" id="toc-aspectos-éticos-e-legais" class="nav-link" data-scroll-target="#aspectos-éticos-e-legais"><strong>5. Aspectos éticos e legais</strong></a></li>
+  <li><a href="#compartilhamento-e-reutilização-dos-dados-e-códigos" id="toc-compartilhamento-e-reutilização-dos-dados-e-códigos" class="nav-link" data-scroll-target="#compartilhamento-e-reutilização-dos-dados-e-códigos"><strong>6. Compartilhamento e reutilização dos dados e códigos</strong></a></li>
+  <li><a href="#preservação-dos-dados-e-códigos" id="toc-preservação-dos-dados-e-códigos" class="nav-link" data-scroll-target="#preservação-dos-dados-e-códigos"><strong>7. Preservação dos dados e códigos</strong></a></li>
+  <li><a href="#orientações-finais" id="toc-orientações-finais" class="nav-link" data-scroll-target="#orientações-finais"><strong>Orientações finais</strong></a></li>
+  <li><a href="#referências-para-consulta" id="toc-referências-para-consulta" class="nav-link" data-scroll-target="#referências-para-consulta"><strong>Referências para consulta:</strong></a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Aulas</li><li class="breadcrumb-item"><a href="../../aulas/02_gestão_dados/index.html">Gestão de projetos e dados abertos</a></li><li class="breadcrumb-item"><a href="../../aulas/02_gestão_dados/index.html">Gestão de Dados abertos</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Aulas</li><li class="breadcrumb-item"><a href="../../aulas/1.1_pre_registro/index.html">Gestão de projetos e dados abertos</a></li><li class="breadcrumb-item"><a href="../../aulas/02_gestão_dados/index.html">Plano de gerenciamento de Dados</a></li></ol></nav>
 <div class="quarto-title">
-<div class="quarto-title-block"><div><h1 class="title">Em construção</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
+<div class="quarto-title-block"><div><h1 class="title">Plano de Gerenciamento de Dados (PGD)</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Código</button></div></div>
 </div>
 
 
@@ -514,10 +541,119 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
+<section id="atividade-elaboração-de-um-plano-de-gerenciamento-de-dados-pgd" class="level1">
+<h1><strong>Atividade — Elaboração de um Plano de Gerenciamento de Dados (PGD)</strong></h1>
+<p><strong>Objetivo:</strong> Elaborar um Plano de Gerenciamento de Dados para um projeto de pesquisa, considerando boas práticas de organização, documentação, armazenamento, preservação e compartilhamento de dados científicos.</p>
+<p><strong>Instruções:</strong> A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar o projeto de pesquisa de um de seus integrantes e utilizá-lo como base para elaborar um PGD. As respostas devem ser objetivas, mas suficientemente detalhadas para explicar como os dados serão gerenciados. Caso alguma informação ainda não esteja definida, o grupo deverá propor uma solução viável e justificá-la.</p>
+<p><strong>Formato de entrega:</strong> Google Docs (lembre-se de deixar aberto para comentários) via email (matheusmaciel.salles@gmail.com), com até 4 páginas.</p>
+<section id="identificação-e-descrição-do-projeto" class="level2">
+<h2 class="anchored" data-anchor-id="identificação-e-descrição-do-projeto"><strong>1. Identificação e descrição do projeto</strong></h2>
+<ul>
+<li><p>Título do projeto:</p></li>
+<li><p>Integrantes do grupo:</p></li>
+<li><p>Breve descrição do projeto, incluindo seus objetivos e principais procedimentos metodológicos.</p></li>
+</ul>
+</section>
+<section id="descrição-dos-dados-e-códigos" class="level2">
+<h2 class="anchored" data-anchor-id="descrição-dos-dados-e-códigos"><strong>2. Descrição dos dados e códigos</strong></h2>
+<ul>
+<li><p>Quais tipos de dados serão coletados, produzidos ou reutilizados durante a pesquisa?</p></li>
+<li><p>Quais serão os principais formatos dos arquivos (planilhas, sequências moleculares, imagens, vídeos, scripts etc.)?</p></li>
+<li><p>Qual é o volume aproximado de dados esperado?</p></li>
+</ul>
+</section>
+<section id="organização-e-documentação-dos-dados" class="level2">
+<h2 class="anchored" data-anchor-id="organização-e-documentação-dos-dados"><strong>3. Organização e documentação dos dados</strong></h2>
+<ul>
+<li><p>Selecione de duas a três variáveis utilizadas no projeto e descreva o que cada uma representa, como foi ou será obtida e, quando aplicável, sua unidade de medida.</p></li>
+<li><p>Organize essas informações em uma pequena tabela, como no exemplo abaixo.</p></li>
+</ul>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+<col style="width: 25%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Variável</strong></td>
+<td><strong>Descrição</strong></td>
+<td><strong>Como é obtida</strong></td>
+<td><strong>Unidade</strong></td>
+</tr>
+<tr class="even">
+<td>Comprimento corporal</td>
+<td>Comprimento rostro-cloacal dos indivíduos</td>
+<td>Medição com paquímetro</td>
+<td>mm</td>
+</tr>
+<tr class="odd">
+<td>Temperatura</td>
+<td>Temperatura ambiental no momento da coleta</td>
+<td>Medição com termômetro</td>
+<td>°C</td>
+</tr>
+<tr class="even">
+<td>Localidade</td>
+<td>Local onde o indivíduo foi coletado</td>
+<td>Registro de campo</td>
+<td>Nome da localidade</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="armazenamento-e-segurança" class="level2">
+<h2 class="anchored" data-anchor-id="armazenamento-e-segurança"><strong>4. Armazenamento e segurança</strong></h2>
+<ul>
+<li><p>Onde os dados serão armazenados durante a execução do projeto?</p></li>
+<li><p>Como serão realizados os backups e o controle de versões?</p></li>
+<li><p>Quem terá acesso aos dados e quem será responsável por sua organização e manutenção?</p></li>
+</ul>
+</section>
+<section id="aspectos-éticos-e-legais" class="level2">
+<h2 class="anchored" data-anchor-id="aspectos-éticos-e-legais"><strong>5. Aspectos éticos e legais</strong></h2>
+<ul>
+<li><p>Existem informações sensíveis, confidenciais ou protegidas por direitos de terceiros?</p></li>
+<li><p>Há alguma restrição ética ou legal ao compartilhamento dos dados?</p></li>
+<li><p>Se houver restrições, quais medidas serão adotadas para garantir sua proteção e, quando possível, permitir sua utilização responsável?</p></li>
+</ul>
+<p>Caso não existam restrições, isso deverá ser explicitado.</p>
+</section>
+<section id="compartilhamento-e-reutilização-dos-dados-e-códigos" class="level2">
+<h2 class="anchored" data-anchor-id="compartilhamento-e-reutilização-dos-dados-e-códigos"><strong>6. Compartilhamento e reutilização dos dados e códigos</strong></h2>
+<ul>
+<li><p>Quais dados e códigos serão disponibilizados publicamente?</p></li>
+<li><p>Em quais repositórios serão depositados? Justifique as escolhas.</p></li>
+<li><p>Quando serão compartilhados (durante o projeto, após sua conclusão, após a publicação etc.)?</p></li>
+<li><p>Quais licenças ou condições de reutilização serão adotadas?</p></li>
+</ul>
+</section>
+<section id="preservação-dos-dados-e-códigos" class="level2">
+<h2 class="anchored" data-anchor-id="preservação-dos-dados-e-códigos"><strong>7. Preservação dos dados e códigos</strong></h2>
+<ul>
+<li><p>Quais dados, códigos e documentos deverão ser preservados após a conclusão do projeto?</p></li>
+<li><p>Onde e por quanto tempo deverão ser mantidos?</p></li>
+<li><p>Quais medidas serão adotadas para garantir sua acessibilidade e utilização futura?</p></li>
+</ul>
+</section>
+<section id="orientações-finais" class="level2">
+<h2 class="anchored" data-anchor-id="orientações-finais"><strong>Orientações finais</strong></h2>
+<p>O PGD deverá apresentar decisões compatíveis com as características e os recursos disponíveis para o projeto escolhido. Não é necessário que todos os procedimentos já estejam implementados, mas as estratégias propostas precisam ser realistas e justificadas. O plano deve permitir que outra pessoa compreenda quais dados serão produzidos, como serão gerenciados e em quais condições poderão ser preservados e reutilizados.</p>
+</section>
+<section id="referências-para-consulta" class="level2">
+<h2 class="anchored" data-anchor-id="referências-para-consulta"><strong>Referências para consulta:</strong></h2>
+<ul>
+<li><p>FAPESP. Gestão de Dados.<a href="https://fapesp.br/gestaodedados">https://fapesp.br/gestaodedados</a></p></li>
+<li><p>DMPTool. Data Management General Guidance. <a href="https://www.dmptool.org/general_guidance" class="uri">https://www.dmptool.org/general_guidance</a></p></li>
+<li><p>Pick et al.&nbsp;(2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology.<a href="https://doi.org/10.24072/pcjournal.687">https://doi.org/10.24072/pcjournal.687</a></p></li>
+</ul>
 
 
 <!-- -->
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -584,13 +720,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
@@ -983,8 +1120,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
   });
   </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Código fonte</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Em construção"</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "Plano de Gerenciamento de Dados (PGD)"</span></span>
 <span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "Matheus Salles"</span></span>
 <span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span></span>
 <span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="co">  html:</span></span>
@@ -992,7 +1129,92 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co">    code-tools:</span></span>
 <span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">      source: true</span></span>
 <span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">      toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></pre></div>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a><span class="fu"># **Atividade — Elaboração de um Plano de Gerenciamento de Dados (PGD)**</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>**Objetivo:** Elaborar um Plano de Gerenciamento de Dados para um projeto de pesquisa, considerando boas práticas de organização, documentação, armazenamento, preservação e compartilhamento de dados científicos.</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>**Instruções:** A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar o projeto de pesquisa de um de seus integrantes e utilizá-lo como base para elaborar um PGD. As respostas devem ser objetivas, mas suficientemente detalhadas para explicar como os dados serão gerenciados. Caso alguma informação ainda não esteja definida, o grupo deverá propor uma solução viável e justificá-la.</span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>**Formato de entrega:** Google Docs (lembre-se de deixar aberto para comentários) via email (matheusmaciel.salles\@gmail.com), com até 4 páginas.</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="fu">## **1. Identificação e descrição do projeto**</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Título do projeto:</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Integrantes do grupo:</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Breve descrição do projeto, incluindo seus objetivos e principais procedimentos metodológicos.</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="fu">## **2. Descrição dos dados e códigos**</span></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quais tipos de dados serão coletados, produzidos ou reutilizados durante a pesquisa?</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quais serão os principais formatos dos arquivos (planilhas, sequências moleculares, imagens, vídeos, scripts etc.)?</span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-34"><a href="#cb1-34" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Qual é o volume aproximado de dados esperado?</span>
+<span id="cb1-35"><a href="#cb1-35" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-36"><a href="#cb1-36" aria-hidden="true" tabindex="-1"></a><span class="fu">## **3. Organização e documentação dos dados**</span></span>
+<span id="cb1-37"><a href="#cb1-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-38"><a href="#cb1-38" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Selecione de duas a três variáveis utilizadas no projeto e descreva o que cada uma representa, como foi ou será obtida e, quando aplicável, sua unidade de medida.</span>
+<span id="cb1-39"><a href="#cb1-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-40"><a href="#cb1-40" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Organize essas informações em uma pequena tabela, como no exemplo abaixo.</span>
+<span id="cb1-41"><a href="#cb1-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-42"><a href="#cb1-42" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span>  <span class="pp">|</span>  <span class="pp">|</span>  <span class="pp">|</span>  <span class="pp">|</span></span>
+<span id="cb1-43"><a href="#cb1-43" aria-hidden="true" tabindex="-1"></a><span class="pp">|----|----|----|----|</span></span>
+<span id="cb1-44"><a href="#cb1-44" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> **Variável** | **Descrição** | **Como é obtida** | **Unidade** <span class="pp">|</span></span>
+<span id="cb1-45"><a href="#cb1-45" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Comprimento corporal <span class="pp">|</span> Comprimento rostro-cloacal dos indivíduos <span class="pp">|</span> Medição com paquímetro <span class="pp">|</span> mm <span class="pp">|</span></span>
+<span id="cb1-46"><a href="#cb1-46" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Temperatura <span class="pp">|</span> Temperatura ambiental no momento da coleta <span class="pp">|</span> Medição com termômetro <span class="pp">|</span> °C <span class="pp">|</span></span>
+<span id="cb1-47"><a href="#cb1-47" aria-hidden="true" tabindex="-1"></a><span class="pp">|</span> Localidade <span class="pp">|</span> Local onde o indivíduo foi coletado <span class="pp">|</span> Registro de campo <span class="pp">|</span> Nome da localidade <span class="pp">|</span></span>
+<span id="cb1-48"><a href="#cb1-48" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-49"><a href="#cb1-49" aria-hidden="true" tabindex="-1"></a><span class="fu">## **4. Armazenamento e segurança**</span></span>
+<span id="cb1-50"><a href="#cb1-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-51"><a href="#cb1-51" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Onde os dados serão armazenados durante a execução do projeto?</span>
+<span id="cb1-52"><a href="#cb1-52" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-53"><a href="#cb1-53" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Como serão realizados os backups e o controle de versões?</span>
+<span id="cb1-54"><a href="#cb1-54" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-55"><a href="#cb1-55" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quem terá acesso aos dados e quem será responsável por sua organização e manutenção?</span>
+<span id="cb1-56"><a href="#cb1-56" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-57"><a href="#cb1-57" aria-hidden="true" tabindex="-1"></a><span class="fu">## **5. Aspectos éticos e legais**</span></span>
+<span id="cb1-58"><a href="#cb1-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-59"><a href="#cb1-59" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Existem informações sensíveis, confidenciais ou protegidas por direitos de terceiros?</span>
+<span id="cb1-60"><a href="#cb1-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-61"><a href="#cb1-61" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Há alguma restrição ética ou legal ao compartilhamento dos dados?</span>
+<span id="cb1-62"><a href="#cb1-62" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-63"><a href="#cb1-63" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Se houver restrições, quais medidas serão adotadas para garantir sua proteção e, quando possível, permitir sua utilização responsável?</span>
+<span id="cb1-64"><a href="#cb1-64" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-65"><a href="#cb1-65" aria-hidden="true" tabindex="-1"></a>Caso não existam restrições, isso deverá ser explicitado.</span>
+<span id="cb1-66"><a href="#cb1-66" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-67"><a href="#cb1-67" aria-hidden="true" tabindex="-1"></a><span class="fu">## **6. Compartilhamento e reutilização dos dados e códigos**</span></span>
+<span id="cb1-68"><a href="#cb1-68" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-69"><a href="#cb1-69" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quais dados e códigos serão disponibilizados publicamente?</span>
+<span id="cb1-70"><a href="#cb1-70" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-71"><a href="#cb1-71" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Em quais repositórios serão depositados? Justifique as escolhas.</span>
+<span id="cb1-72"><a href="#cb1-72" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-73"><a href="#cb1-73" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quando serão compartilhados (durante o projeto, após sua conclusão, após a publicação etc.)?</span>
+<span id="cb1-74"><a href="#cb1-74" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-75"><a href="#cb1-75" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quais licenças ou condições de reutilização serão adotadas?</span>
+<span id="cb1-76"><a href="#cb1-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-77"><a href="#cb1-77" aria-hidden="true" tabindex="-1"></a><span class="fu">## **7. Preservação dos dados e códigos**</span></span>
+<span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-79"><a href="#cb1-79" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quais dados, códigos e documentos deverão ser preservados após a conclusão do projeto?</span>
+<span id="cb1-80"><a href="#cb1-80" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-81"><a href="#cb1-81" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Onde e por quanto tempo deverão ser mantidos?</span>
+<span id="cb1-82"><a href="#cb1-82" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-83"><a href="#cb1-83" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Quais medidas serão adotadas para garantir sua acessibilidade e utilização futura?</span>
+<span id="cb1-84"><a href="#cb1-84" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-85"><a href="#cb1-85" aria-hidden="true" tabindex="-1"></a><span class="fu">## **Orientações finais**</span></span>
+<span id="cb1-86"><a href="#cb1-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-87"><a href="#cb1-87" aria-hidden="true" tabindex="-1"></a>O PGD deverá apresentar decisões compatíveis com as características e os recursos disponíveis para o projeto escolhido. Não é necessário que todos os procedimentos já estejam implementados, mas as estratégias propostas precisam ser realistas e justificadas. O plano deve permitir que outra pessoa compreenda quais dados serão produzidos, como serão gerenciados e em quais condições poderão ser preservados e reutilizados.</span>
+<span id="cb1-88"><a href="#cb1-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-89"><a href="#cb1-89" aria-hidden="true" tabindex="-1"></a><span class="fu">## **Referências para consulta:**</span></span>
+<span id="cb1-90"><a href="#cb1-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-91"><a href="#cb1-91" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>FAPESP. Gestão de Dados.<span class="co">[</span><span class="ot"> https://fapesp.br/gestaodedados</span><span class="co">](https://fapesp.br/gestaodedados)</span></span>
+<span id="cb1-92"><a href="#cb1-92" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-93"><a href="#cb1-93" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>DMPTool. Data Management General Guidance. <span class="ot">&lt;https://www.dmptool.org/general_guidance&gt;</span></span>
+<span id="cb1-94"><a href="#cb1-94" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-95"><a href="#cb1-95" aria-hidden="true" tabindex="-1"></a><span class="ss">- </span>Pick et al. (2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology.<span class="co">[</span><span class="ot"> https://doi.org/10.24072/pcjournal.687</span><span class="co">](https://doi.org/10.24072/pcjournal.687)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button" data-in-quarto-modal=""><i class="bi"></i></button></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

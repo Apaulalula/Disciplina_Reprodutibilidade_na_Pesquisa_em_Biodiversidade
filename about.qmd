@@ -6,7 +6,7 @@ Olá!
 
 Bem-vinda e bem-vindo a disciplina "**Princípios e Práticas de Reprodutibilidade na Pesquisa em Biodiversidade".** Nesta disciplina abordaremos conceitos relacionados ao movimento da Ciência Aberta, além das tendências e ferramentas necessárias para conduzir pesquisas reprodutíveis na área de ecologia e biodiversidade.
 
-Este site conterá o conteúdo e cronograma da nossa aula. Assim como os materiais e scripts que utilizaremos durante o curso.
+Este site contém o conteúdo e cronograma da nossa aula. Assim como os materiais e scripts que utilizaremos durante o curso.
 
 [Clique aqui](index.qmd) para uma visão completa do cronograma
 
@@ -21,7 +21,7 @@ O curso é coordenado pela Dra. Ana Paula Lula Costa, e pelo Dr. Matheus Salles.
 knitr::include_graphics("images/AnaPaulaLula.jpg")
 ```
 
-Bióloga pela Universidade Estadual de Maringá (UEM), mestre e doutora em Ecologia e Conservação pela Universidade Federal do Paraná (UFPR). Atualmente atua como pesquisadora de pós-doutorado na Fundação Oswaldo Cruz (PROCC/FIOCRUZ), no Programa de Computação Científica. Sua pesquisa investiga a influência das mudanças da paisagem, das trajetórias produtivas e do clima na dinâmica de trasnmissão de zoonoses entre animais silvestres, vetores e humanos. Ana Paula também atua como coordenadora de conteúdo no projeto Mulheres na Ecologia, que visa aumentar a visibilidade de Mulheres que trabalham com ecologia no Brasil, sendo também embaixadora da RBR em 2025-2026.
+Bióloga pela Universidade Estadual de Maringá (UEM), mestre e doutora em Ecologia e Conservação pela Universidade Federal do Paraná (UFPR). Atualmente atua como pesquisadora de pós-doutorado na Fundação Oswaldo Cruz (PROCC/FIOCRUZ), no Programa de Computação Científica. Sua pesquisa investiga a influência das mudanças da paisagem, das trajetórias produtivas e do clima na dinâmica de transmissão de zoonoses entre animais silvestres, vetores e humanos. Ana Paula também atua como coordenadora de conteúdo no projeto Mulheres na Ecologia, que visa aumentar a visibilidade de Mulheres que trabalham com ecologia no Brasil, sendo também embaixadora da RBR em 2025-2026.
 
 ## Matheus Salles
 

@@ -1,13 +1,98 @@
 ---
-title: "Links para materiais"
+title: "Literatura e recursos adicionais"
+bibliography: references.bib
 ---
 
-Aqui vocês irão encontrar links para materiais abertos sobre ciência aberta, reprodutibilidade e outros assuntos relacionados.
+Aqui vocês irão encontrar materiais sobre ciência aberta, reprodutibilidade e outros assuntos relacionados.
 
-## Livros e materiais didáticos
+## Artigos
 
-- 
+Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604). doi: 10.1038/533452a
 
-## Ferramental
+Bertram, M.G., Sundin, J., Roche, D.G., Sánchez-Tójar, A., Thoré, E.S.J. & Brodin, T. (2023). Open science. Current Biology, 33, R792–R797. https://doi.org/10.1016/j.cub.2023.05.036
 
-- 
+Bezjak, S., Clyburne-Sherin, A., Conzett, P., et al. (2018). Open Science Training Handbook. https://doi.org/10.5281/zenodo.1212496
+
+Blischak, J.D., Davenport, E.R. & Wilson, G. (2016). A Quick Introduction to Version Control with Git and GitHub. PLOS Computational Biology, 12, e1004668. https://doi.org/10.1371/journal.pcbi.1004668
+
+Brodeur, A., Dreber, A., Hoces De La Guardia, F., & Miguel, E. (2023). Replication games: How to make reproducibility research more systematic. Nature, 621(7980), 684–686. https://doi.org/10.1038/d41586-02302997-5 
+
+Camerer, C. F., et al. (2018). Evaluating the replicability of social science experiments in Nature and Science between 2010 and 2015. Nature Human Behaviour, 2(9), 637–644. doi: 10.1038/s41562-018-0399-z
+
+Carneiro, C. F. D., et al. (2025). A Rede Brasileira de Reprodutibilidade. SciELO Preprints. doi: 10.1590/SciELOPreprints.12671
+
+Ioannidis, J. P. A. (2005). Why Most Published Research Findings Are False. PLOS Medicine, 2(8), e124. doi: 10.1371/journal.pmed.0020124
+
+Klebel, T., Traag, V., Grypari, I., Stoy, L., & Ross-Hellauer, T. (2025). The academic impact of Open Science: A scoping review. Royal Society Open Science, 12(3), 241248. https://doi.org/10.1098/rsos.241248
+
+National Academies of Sciences, Engineering, and Medicine. (2019). Reproducibility and Replicability in Science. National Academies Press, Washington, D.C. https://doi.org/10.17226/25303
+
+Nosek, B. A., & Errington, T. M. (2020). What is replication?. PLoS biology, 18(3), e3000691.
+
+Goodman, S. N., Fanelli, D., & Ioannidis, J. P. (2016). What does research reproducibility mean?. Science translational medicine, 8(341), 341ps12-341ps12. 
+
+Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716. doi: 10.1126/science.aac4716
+
+Pick, J. L., Allen, B. J., Bachelot, B., Bairos-Novak, K. R., Brand, J. A., Class, B., … Ivimey-Cook, E. R. (2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology. Peer Community Journal, 6, e20. https://doi.org/10.24072/pcjournal.687 
+
+Powers, S. M., & Hampton, S. E. (2019). Open science, reproducibility, and transparency in ecology. Ecological applications, 29(1), e01822.
+
+Sandve, G.K., Nekrutenko, A., Taylor, J. & Hovig, E. (2013). Ten Simple Rules for Reproducible Computational Research. PLOS Computational Biology, 9, e1003285. https://doi.org/10.1371/journal.pcbi.1003285
+
+Silveira, L. D., Ribeiro, N. C., Melero, R., Mora-Campos, A., Piraquive-Piraquive, D. F., Uribe-Tirado, A., … Fachin, J. (2023). Taxonomia da Ciência Aberta: Revisada e ampliada. Encontros Bibli: revista eletrônica de biblioteconomia e ciência da informação, 28, 1–22. https://doi.org/10.5007/1518-2924.2023.e91712 
+
+The Carpentries Lessons. (2025). The Carpentries. Available at: https://carpentries.org/lessons/. Last accessed 20 October 2025.
+
+Wilkinson, M.D., Dumontier, M., Aalbersberg, Ij.J., Appleton, G., Axton, M., Baak, A., et al. (2016). The FAIR Guiding Principles for scientific data management and stewardship. Sci Data, 3, 160018. https://doi.org/10.1038/sdata.2016.18
+
+Youngflesh, C. (2018). MCMCvis: Tools to Visualize, Manipulate, and Summarize MCMC Output. Journal of Open Source Software, 3, 640. https://doi.org/10.21105/joss.00640
+
+## Guias e recursos adicionais
+
+- FAPESP. (n.d.). Open Science \@ FAPESP. \[Online\]. Disponível em: https://fapesp.br/openscience/
+
+- UNESCO. (2022). Recomendação da UNESCO sobre Ciência Aberta. \[Online\]. doi: 10.54677/XFFX3334
+
+<!-- -->
+
+- Redes de ciência aberta e reprodutibilidade:
+
+  - <https://www.reprodutibilidade.org/recursos>
+
+  - <https://rkofreitag.github.io/aberta.html>
+
+  - <https://www.ukrn.org/>
+
+  - <https://sortee.org/>
+
+  - <https://reproducibility.global/>
+
+  - <https://osf.io/>
+
+- Repositório de dados e códigos:
+
+  - <https://depositadados.ibict.br/>
+
+  - <https://arca.fiocruz.br/500>
+
+  - <https://lattesdata.cnpq.br/>
+
+  - <https://dataverse.org/>
+
+  - <https://www.sibbr.gov.br/>
+
+  - <https://zenodo.org/>
+
+  - <https://www.treebase.org/treebase-web/home.html>
+
+- Outras ferramentas:
+
+  - <https://happygitwithr.com/>
+
+  - <https://campusvirtual.fiocruz.br/portal/?q=formacao-modular/ciencia-aberta>
+
+  - <https://osf.io/vkhbt/files/wmakh>
+
+  - <https://www.makeareadme.com/>
+
+  - <https://www.fatiando.org/>

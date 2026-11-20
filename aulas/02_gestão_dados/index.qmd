@@ -1,5 +1,5 @@
 ---
-title: "Em construção"
+title: "Plano de Gerenciamento de Dados (PGD)"
 author: "Matheus Salles"
 format:
   html:
@@ -8,3 +8,88 @@ format:
       source: true
       toggle: true # Opcional: esconde o botão de ocultar/mostrar códigos se não quiser
 ---
+
+# **Atividade — Elaboração de um Plano de Gerenciamento de Dados (PGD)**
+
+**Objetivo:** Elaborar um Plano de Gerenciamento de Dados para um projeto de pesquisa, considerando boas práticas de organização, documentação, armazenamento, preservação e compartilhamento de dados científicos.
+
+**Instruções:** A atividade deverá ser realizada em grupos. Cada grupo deverá selecionar o projeto de pesquisa de um de seus integrantes e utilizá-lo como base para elaborar um PGD. As respostas devem ser objetivas, mas suficientemente detalhadas para explicar como os dados serão gerenciados. Caso alguma informação ainda não esteja definida, o grupo deverá propor uma solução viável e justificá-la.
+
+**Formato de entrega:** Google Docs (lembre-se de deixar aberto para comentários) via email (matheusmaciel.salles\@gmail.com), com até 4 páginas.
+
+## **1. Identificação e descrição do projeto**
+
+- Título do projeto:
+
+- Integrantes do grupo:
+
+- Breve descrição do projeto, incluindo seus objetivos e principais procedimentos metodológicos.
+
+## **2. Descrição dos dados e códigos**
+
+- Quais tipos de dados serão coletados, produzidos ou reutilizados durante a pesquisa?
+
+- Quais serão os principais formatos dos arquivos (planilhas, sequências moleculares, imagens, vídeos, scripts etc.)?
+
+- Qual é o volume aproximado de dados esperado?
+
+## **3. Organização e documentação dos dados**
+
+- Selecione de duas a três variáveis utilizadas no projeto e descreva o que cada uma representa, como foi ou será obtida e, quando aplicável, sua unidade de medida.
+
+- Organize essas informações em uma pequena tabela, como no exemplo abaixo.
+
+|  |  |  |  |
+|----|----|----|----|
+| **Variável** | **Descrição** | **Como é obtida** | **Unidade** |
+| Comprimento corporal | Comprimento rostro-cloacal dos indivíduos | Medição com paquímetro | mm |
+| Temperatura | Temperatura ambiental no momento da coleta | Medição com termômetro | °C |
+| Localidade | Local onde o indivíduo foi coletado | Registro de campo | Nome da localidade |
+
+## **4. Armazenamento e segurança**
+
+- Onde os dados serão armazenados durante a execução do projeto?
+
+- Como serão realizados os backups e o controle de versões?
+
+- Quem terá acesso aos dados e quem será responsável por sua organização e manutenção?
+
+## **5. Aspectos éticos e legais**
+
+- Existem informações sensíveis, confidenciais ou protegidas por direitos de terceiros?
+
+- Há alguma restrição ética ou legal ao compartilhamento dos dados?
+
+- Se houver restrições, quais medidas serão adotadas para garantir sua proteção e, quando possível, permitir sua utilização responsável?
+
+Caso não existam restrições, isso deverá ser explicitado.
+
+## **6. Compartilhamento e reutilização dos dados e códigos**
+
+- Quais dados e códigos serão disponibilizados publicamente?
+
+- Em quais repositórios serão depositados? Justifique as escolhas.
+
+- Quando serão compartilhados (durante o projeto, após sua conclusão, após a publicação etc.)?
+
+- Quais licenças ou condições de reutilização serão adotadas?
+
+## **7. Preservação dos dados e códigos**
+
+- Quais dados, códigos e documentos deverão ser preservados após a conclusão do projeto?
+
+- Onde e por quanto tempo deverão ser mantidos?
+
+- Quais medidas serão adotadas para garantir sua acessibilidade e utilização futura?
+
+## **Orientações finais**
+
+O PGD deverá apresentar decisões compatíveis com as características e os recursos disponíveis para o projeto escolhido. Não é necessário que todos os procedimentos já estejam implementados, mas as estratégias propostas precisam ser realistas e justificadas. O plano deve permitir que outra pessoa compreenda quais dados serão produzidos, como serão gerenciados e em quais condições poderão ser preservados e reutilizados.
+
+## **Referências para consulta:**
+
+- FAPESP. Gestão de Dados.[ https://fapesp.br/gestaodedados](https://fapesp.br/gestaodedados)
+
+- DMPTool. Data Management General Guidance. <https://www.dmptool.org/general_guidance>
+
+- Pick et al. (2026). The SORTEE guidelines for data and code quality control in ecology and evolutionary biology.[ https://doi.org/10.24072/pcjournal.687](https://doi.org/10.24072/pcjournal.687)
